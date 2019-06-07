@@ -1,6 +1,7 @@
 @font-face {
  font-family: 'nms';
- src: url('../fonts/nms.ttf') format('truetype');
+ src: url('../fonts/nms.woff2') format('woff2'),
+      url('../fonts/nms.ttf') format('truetype');
 }
 
 @keyframes fadein {
@@ -21,10 +22,7 @@
 }
 
 body {
-	background-image: url(../../assets/img/brand/logo_n_opac.png);
 	background-color: #fff;
-	background-repeat: repeat;
-	background-attachment: scroll, fixed;;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -244,7 +242,7 @@ footer a:visited {
 }
 
 .card {
-	background-color: #202225;
+	/*background-color: #202225;*/
 	border-radius: 5px;
 	transition: .4s;
 	margin-bottom: 40px;
@@ -258,7 +256,7 @@ footer a:visited {
 }
 
 .card:hover {
-  box-shadow: 0 15px 40px rgba(212, 59, 59, 0.5);
+  /*box-shadow: 0 15px 40px rgba(212, 59, 59, 0.5);*/
 }
 
 .card-img {
