@@ -241,6 +241,13 @@ footer a:visited {
   justify-self: center;
 }
 
+.no-highlight {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .card {
 	/*background-color: #202225;*/
 	border-radius: 5px;
