@@ -62,7 +62,7 @@ class getNews
 
     public function querySql($item) {
         $timestamp = date('F d\, Y \a\t h:iA', $item['timestamp']);
-        $connect = mysqli_connect("localhost", "user", 'password', "database");
+        $connect = mysqli_connect("localhost:3306", "atlas", 'K*8}HB?stZQ(:5r%JpRc', "atlas");
         $sql_set = "INSERT INTO news(uri, title, timestamp, date, content, enclosures) VALUES('".$item["uri"]."', '".$item["title"]."', '".$item["timestamp"]."', '".$timestamp."', '".$item["content"]."', '".$item["enclosures"]."')";
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
