@@ -37,23 +37,20 @@
 <main>
     <div class="grid">
         <?php
-        $url = "https://feed.nebulr.me/?action=display&bridge=NoMansSky&q=1&format=Json";
-        $json = file_get_contents($url);
-        $data = json_decode($json);
-
-        foreach ($data as $item => $value) {
-            echo <<<NEWS
-            <a  style='text-decoration: none; color: inherit' href='$value->uri'>
-                <div class='news'>
-                    <img class='news-img' src='$value->enclosures'><br>
-                    <h2 style="margin-bottom: 5px" class='nms news-text-padding-side'>$value->title</h2>
-                    <div class='text-small text-light news-text-padding-side'>$value->timestamp</div><br>
-                    <div class='text-light news-text-padding-side news-text-padding-bottom'>$value->content</div><br>
-                </div>
-            </a>
-            NEWS;
+        include_once("./../assets/php/getNews.php");
+        $urlPage = 1;
+        $News = new getNews();
+        $News->mainHtml($urlPage);
+        ?>
+        <?php
+        if(array_key_exists('next_page',$_POST)){
+            $urlPage++;
+            $News->nextPage($urlPage);
         }
         ?>
+        <form method="post">
+            <input style="border-style: none; margin-top: 100px;" class="button" type="submit" name="next_page" id="next_page" value="Load more..." />
+        </form>
 </main>
 
 <footer>
