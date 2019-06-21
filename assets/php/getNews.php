@@ -71,12 +71,17 @@ class getNews
         $this->generateNewsSql($urlPage);
     }
 
-    public function mainSql() {
-        $this->getJsonAll();
+    public function mainSqlSet() {
+        $this->getJsonAllSet();
         echo 'News updated!';
     }
 
-    public function getJsonAll() {
+    public function mainSqlUpdate() {
+        $this->getJsonAllUpdate();
+        echo 'News updated!';
+    }
+
+    public function getJsonAllSet() {
         $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSky&q=";
         $urlSuffix = "&format=Json";
         $urlPage = 1;
@@ -85,13 +90,28 @@ class getNews
             $json = file_get_contents($urlPrefix . $urlPage . $urlSuffix);
             $data = json_decode($json, true);
             foreach ($data as $item) {
-                $this->querySql($item);
+                $this->querySqlSet($item);
             }
             $urlPage++;
         } while (!(strpos($item["title"], $error_string)));
     }
 
-    public function querySql($item) {
+    public function getJsonAllUpdate() {
+        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSky&q=";
+        $urlSuffix = "&format=Json";
+        $urlPage = 1;
+        $error_string = "error";
+        do {
+            $json = file_get_contents($urlPrefix . $urlPage . $urlSuffix);
+            $data = json_decode($json, true);
+            foreach ($data as $item) {
+                $this->querySqlUpdate($item);
+            }
+            $urlPage++;
+        } while (!(strpos($item["title"], $error_string)));
+    }
+
+    public function querySqlSet($item) {
         $server = "localhost:3306";
         $username = "atlas";
         $password = "K*8}HB?stZQ(:5r%JpRc";
@@ -105,6 +125,24 @@ class getNews
 
         $sql_set = "INSERT INTO news(uri, title, timestamp, date, content, enclosures) VALUES('".$item["uri"]."', '".$item["title"]."', '".$item["timestamp"]."', '".$timestamp."', '".$item["content"]."', '".$item["enclosures"]."')";
         mysqli_query($connect, $sql_set);
+        var_dump(mysqli_error_list($connect));
+        mysqli_close($connect);
+    }
+
+    public function querySqlUpdate($item) {
+        $server = "localhost:3306";
+        $username = "atlas";
+        $password = "K*8}HB?stZQ(:5r%JpRc";
+        $database = "atlas";
+
+        $timestamp = date('F d\, Y \a\t h:iA', $item['timestamp']);
+        $connect = mysqli_connect("$server", "$username", "$password", "$database");
+        if (!$connect) {
+            die("Connection failed: " . mysqli_connect_error());
+        };
+
+        $sql_update = "UPDATE news SET uri='".$item["uri"]."', title='".$item["title"]."', date='".$timestamp."', content='".$item["content"]."', enclosures='".$item["enclosures"]."' WHERE timestamp='".$item["timestamp"]."'";
+        mysqli_query($connect, $sql_update);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
     }
