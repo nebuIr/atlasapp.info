@@ -25,6 +25,7 @@
         <li><a href="../index.php">Home</a></li>
         <li><a class="active" href="#">Media</a></li>
         <li><a href="news.php">News</a></li>
+        <li><a href="releases.php">Releases</a></li>
         <?php
         $agent = strtolower($_SERVER['HTTP_USER_AGENT']);
         if(stripos($agent,'android') !== false) {

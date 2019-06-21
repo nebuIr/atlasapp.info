@@ -492,3 +492,30 @@ footer a:visited {
 .text-small {
     font-size: .9em;
 }
+
+.platforms-wrap {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.platform {
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    border-radius: 8px;
+    color: white;
+}
+
+.platform-pc {
+    background: #52565e;
+}
+
+.platform-ps4 {
+    background: #003791;
+}
+
+.platform-xbox {
+    background: #107c10;
+}
