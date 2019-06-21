@@ -38,8 +38,11 @@
 <main>
     <div class="grid">
         <?php
-        include_once("./../assets/php/getReleases.php");
+        include_once("./../assets/php/releases/getReleases.php");
+        include_once("./../assets/php/version/getVersion.php");
         $urlPage = 1;
+        $Version = new getVersion();
+        $Version->mainHtml();
         $Releases = new getReleases();
         $Releases->mainHtml($urlPage);
         ?>

@@ -38,7 +38,7 @@
 <main>
     <div class="grid">
         <?php
-        include_once("./../assets/php/getNews.php");
+        include_once("./../assets/php/news/getNews.php");
         $urlPage = 1;
         $News = new getNews();
         $News->mainHtml($urlPage);

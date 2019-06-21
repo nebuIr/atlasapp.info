@@ -519,3 +519,26 @@ footer a:visited {
 .platform-xbox {
     background: #107c10;
 }
+
+.version-div {
+    padding-top: 15px;
+    background: #f8f8f8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 400px;
+}
+
+.version-note {
+
+}
+
+.version-title {
+    margin-top: 5px;
+}
+
+.version {
+
+}
