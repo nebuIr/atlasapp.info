@@ -1,5 +1,5 @@
 <!DOCTYPE>
-<html>
+<html lang="en">
 
 <head>
 
@@ -21,9 +21,9 @@
 
 <nav>
     <ul>
-        <li style="margin-right: 10px"><a href="../index.html"><img
-                        style="width: 50px; height: 50px; margin-top: -15px;"
-                        src="../assets/img/brand/logo_circle_192px.png"/></a>
+        <li style="margin-right: 10px"><a href="/index.php"><img alt="atlas logo"
+                                                                 style="width: 50px; height: 50px; margin-top: -15px;"
+                                                                 src="/assets/img/brand/logo_circle_192px.png"/></a>
         </li>
         <li><a class="active" href="#">Home</a></li>
         <li><a href="pages/media.php">Media</a></li>
@@ -32,15 +32,15 @@
         <?php
         $agent = strtolower($_SERVER['HTTP_USER_AGENT']);
         if (stripos($agent, 'android') !== false) {
-            echo "<li><a target=\"_blank\" href=\"../home\">Open App</a></li>";
+            echo "<li><a target=\"_blank\" href=\"/home\">Open App</a></li>";
         } ?>
     </ul>
 </nav>
 
 <main class="main-text-medium">
     <div class="home-logo" style="background-image:url(assets/img/brand/logo_square_512px.png)"></div>
-    <h1 align="center" class="title-light nms no-highlight">Atlas for No Man's Sky</h1>
-    <p align="center" class="text-light" style="margin-bottom: 50px;">Atlas for No Man's Sky is a guide app for No Man's
+    <h1 class="title-light nms no-highlight center">Atlas for No Man's Sky</h1>
+    <p class="text-light center" style="margin-bottom: 50px;">Atlas for No Man's Sky is a guide app for No Man's
         Sky on your Android Device.<br/>
         It provides fast access to all items including basic information, recipes and values.</p>
     <!--<a href='https://play.google.com/store/apps/details?id=me.nebulr.atlas&utm_source=wh&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style="margin-left: auto; margin-right: auto; display: block" height="100px" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>-->
@@ -48,44 +48,42 @@
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3qRh8b1G83AexOIpyCNXetd7QCFUeijKmO8qSzxVP4hObYQ/viewform"
            class="button">Register for Alpha</a>
     </div>
-    <img class="dash-show" src="assets/img/screens/dash_small_compressed.png" width="80%">
-    <div class="grid">
+    <img alt="app screenshots" class="dash-show" src="assets/img/screens/dash_small_compressed.png" width="80%">
+    <div class="grid frontpage">
+        <div class="card card-mobile">
+            <img alt="screenshot" class="card-img-full" src="/assets/img/screens/dash_1_small.png"/>
+        </div>
         <div class="text-card">
             <p class="nms no-highlight"
-               style="font-weight: bold; font-size: calc(100% + 1.5vw); color: #000; margin-bottom: 0px;">
+               style="font-weight: bold; font-size: calc(100% + 1.5vw); color: #000; margin-bottom: 0;">
                 Achievements</p>
             <p class="text-light">Keep track of all your achievements.<br>All platforms are supported.</p>
         </div>
-        <div class="text-card">
-            <p class="nms no-highlight"
-               style="font-weight: bold; font-size: calc(100% + 1.5vw); color: #000; margin-bottom: 0px;">Dashboard</p>
-            <p class="text-light">Stay up to date with all the latest news<br>about No Man's Sky.</p>
+        <div class="card card-mobile">
+            <img alt="screenshot" class="card-img-full" src="/assets/img/screens/dash_2_small.png"/>
         </div>
         <div class="text-card">
             <p class="nms no-highlight"
-               style="font-weight: bold; font-size: calc(100% + 1.5vw); color: #000; margin-bottom: 0px;">Items</p>
+               style="font-weight: bold; font-size: calc(100% + 1.5vw); color: #000; margin-bottom: 0;">Dashboard</p>
+            <p class="text-light">Stay up to date with all the latest news<br>about No Man's Sky.</p>
+        </div>
+        <div class="card card-mobile">
+            <img alt="screenshot" class="card-img-full" src="/assets/img/screens/dash_3_small.png"/>
+        </div>
+        <div class="text-card">
+            <p class="nms no-highlight"
+               style="font-weight: bold; font-size: calc(100% + 1.5vw); color: #000; margin-bottom: 0;">Items</p>
             <p class="text-light">View all important information.<br>From simple stats to detailed descriptions.</p>
         </div>
     </div>
-
-    <!--<p class="text-light" style="margin-top: 100px;">Features:</p>
-    <ul class="text-light">
-        <li>Information of every item</li>
-        <li>View the Achievements of the game</li>
-        <li>Search and Filter function</li>
-        <li>English and German language</li>
-        <li>See all News posts from https://www.nomanssky.com/news/</li>
-        <li>See all Release Log posts from https://www.nomanssky.com/release-log</li>
-        <li>Keep up to date with tweets from @NoMansSky</li>
-        <li>Dark and Light Theme</li>
-    </ul>-->
 </main>
 
 <footer>
-    <p class="card-text text-light">This website was created by <img src="/assets/img/brand/pp_16.png"> nebulr<br>Feel
+    <p class="card-text text-light">This website was created by <img alt="nebulr" src="/assets/img/brand/pp_16.png">
+        nebulr<br>Feel
         free to <a href="mailto:support@nebulr.me">send</a> any bug reports or feedback</p> <a
-            href="../privacypolicy/index.html">Privacy Policy</a> <a style="margin-left: 30px"
-                                                                     href="mailto:hello@nebulr.me">Contact</a><br>
+            href="/privacypolicy/index.html">Privacy Policy</a> <a style="margin-left: 30px"
+                                                                   href="mailto:hello@nebulr.me">Contact</a><br>
     <a href='https://play.google.com/store/apps/details?id=me.nebulr.atlas&utm_source=wh&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
                 style="transform: translate(-13px, 13px)" height="75px" alt='Get it on Google Play'
                 src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>

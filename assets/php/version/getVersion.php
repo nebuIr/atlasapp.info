@@ -63,12 +63,6 @@ class getVersion
         mysqli_close($connect);
     }
 
-    public function mainSql()
-    {
-        $this->getJsonAll();
-        echo 'Version updated!';
-    }
-
     public function mainSqlSet()
     {
         $this->getJsonAllSet();
@@ -79,16 +73,6 @@ class getVersion
     {
         $this->getJsonAllUpdate();
         echo 'Version updated!';
-    }
-
-    public function getJsonAll()
-    {
-        $url = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyVersion&format=Json";
-        $json = file_get_contents($url);
-        $data = json_decode($json, true);
-        foreach ($data as $item) {
-            $this->querySql($item);
-        }
     }
 
     public function getJsonAllSet()

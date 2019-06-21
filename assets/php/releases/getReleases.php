@@ -27,7 +27,7 @@ class getReleases
             echo "
             <a  style='text-decoration: none; color: inherit' href='$releases_uri'>
                 <div class='news'>
-                    <img class='news-img' src='$releases_enclosures'><br>
+                    <img alt='release image'class='news-img' src='$releases_enclosures'><br>
                     <h2 style='margin-bottom: 5px' class='nms news-text-padding-side'>$releases_title</h2>
                     <div class='text-small text-light news-text-padding-side'>$releases_platforms</div><br>
                     <div class='text-light news-text-padding-side news-text-padding-bottom'>$releases_content</div><br>
@@ -61,7 +61,7 @@ class getReleases
                 echo "
                 <a  style='text-decoration: none; color: inherit' href=" . $row["uri"] . ">
                     <div class='news'>
-                        <img class='news-img' src=" . $row["enclosures"] . "><br>
+                        <img alt='release image'class='news-img' src=" . $row["enclosures"] . "><br>
                         <h2 style='margin-bottom: 5px' class='nms news-text-padding-side'>" . $row["title"] . "</h2>
                         <div class='platforms-wrap'>" . $row["platforms"] . "</div><br>
                         <div class='text-light news-text-padding-side news-text-padding-bottom'>" . $row["content"] . "</div><br>
