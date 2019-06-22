@@ -32,6 +32,32 @@ class getVersion
         }
     }
 
+    public function generateVersionJson()
+    {
+        $server = "localhost:3306";
+        $username = "atlas";
+        $password = "K*8}HB?stZQ(:5r%JpRc";
+        $database = "atlas";
+
+        $connect = mysqli_connect("$server", "$username", "$password", "$database");
+        if (!$connect) {
+            die("Connection failed: " . mysqli_connect_error());
+        }
+
+        $sql_get = "SELECT id, uri, title, content FROM version";
+        $data = mysqli_query($connect, $sql_get);
+        $output = array();
+
+        if (mysqli_num_rows($data) > 0) {
+            while ($row = mysqli_fetch_assoc($data)) {
+                $output[]=$row;
+            }
+        }
+
+        echo json_encode($output);
+        mysqli_close($connect);
+    }
+
     public function generateVersionSql()
     {
         $server = "localhost:3306";
