@@ -620,6 +620,11 @@ footer a:visited {
         margin-left: -20px !important;
     }
 
+    .card-mobile-screen {
+        display: block !important;
+        margin-left: -20px !important;
+    }
+
     .text-card {
         margin-top: -40px !important;
         margin-bottom: 60px !important;

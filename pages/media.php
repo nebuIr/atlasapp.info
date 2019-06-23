@@ -39,31 +39,31 @@
 <main>
     <div class="grid">
 
-        <div class="card card-mobile">
+        <div class="card card-mobile-screen">
             <img alt="screenshot" class="card-img-full" src="../assets/img/media/dash_1_dark_small.png"/>
         </div>
 
-        <div class="card card-mobile">
+        <div class="card card-mobile-screen">
             <img alt="screenshot" class="card-img-full" src="../assets/img/media/dash_2_light_small.png"/>
         </div>
 
-        <div class="card card-mobile">
+        <div class="card card-mobile-screen">
             <img alt="screenshot" class="card-img-full" src="../assets/img/media/dash_3_dark_small.png"/>
         </div>
 
-        <div class="card card-mobile">
+        <div class="card card-mobile-screen">
             <img alt="screenshot" class="card-img-full" src="../assets/img/media/resources_list_dark_small.png"/>
         </div>
 
-        <div class="card card-mobile">
+        <div class="card card-mobile-screen">
             <img alt="screenshot" class="card-img-full" src="../assets/img/media/resources_details_dark_small.png"/>
         </div>
 
-        <div class="card card-mobile">
+        <div class="card card-mobile-screen">
             <img alt="screenshot" class="card-img-full" src="../assets/img/media/products_details_light_small.png"/>
         </div>
 
-        <div class="card card-mobile">
+        <div class="card card-mobile-screen">
             <img alt="screenshot" class="card-img-full" src="../assets/img/media/achievements_dark_small.png"/>
         </div>
 
