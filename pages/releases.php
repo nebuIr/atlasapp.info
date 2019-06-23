@@ -27,6 +27,7 @@
         <li><a href="media.php">Media</a></li>
         <li><a href="news.php">News</a></li>
         <li><a class="active" href="#">Releases</a></li>
+        <li><a href="twitter.php">Twitter</a></li>
         <?php
         $agent = strtolower($_SERVER['HTTP_USER_AGENT']);
         if (stripos($agent, 'android') !== false) {

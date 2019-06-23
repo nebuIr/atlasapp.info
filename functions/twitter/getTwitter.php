@@ -20,7 +20,7 @@ class getTwitter
     {
         foreach ($this->getJson() as $item) {
             $twitter_uri = $item["uri"];
-            $twitter_timestamp_orig = $item["timestamp"];
+            $twitter_timestamp = $item["timestamp"];
             $twitter_username = $item["username"];
             $twitter_fullname = $item["fullname"];
             $twitter_author = $item["author"];
@@ -29,7 +29,6 @@ class getTwitter
             $twitter_title = $item["title"];
             $twitter_content = $item["content"];
             $twitter_enclosures = $item["enclosures"];
-            $twitter_timestamp = date('F d\, Y \a\t h:iA', $twitter_timestamp_orig);
             echo "
             <a  style='text-decoration: none; color: inherit' href='$twitter_uri'>
                 <div class='news'>
@@ -92,13 +91,29 @@ class getTwitter
 
         if (mysqli_num_rows($data) > 0) {
             while ($row = mysqli_fetch_assoc($data)) {
+                $twitter_uri = $row["uri"];
+                $twitter_timestamp = $row["timestamp"];
+                $twitter_username = $row["username"];
+                $twitter_fullname = $row["fullname"];
+                $twitter_avatar = $row["avatar"];
+                $twitter_title = $row["title"];
+                $twitter_enclosures = $row["enclosures"];
                 echo "
-                <a  style='text-decoration: none; color: inherit' href=" . $row["uri"] . ">
-                    <div class='news'>
-                        <img alt='news image' class='news-img' src=" . $row["enclosures"] . "><br>
-                        <h2 style='margin-bottom: 5px' class='nms news-text-padding-side'>" . $row["title"] . "</h2>
-                        <div class='text-small text-light news-text-padding-side'>" . $row["date"] . "</div><br>
-                        <div class='text-light news-text-padding-side news-text-padding-bottom'>" . $row["content"] . "</div><br>
+                <a  style='text-decoration: none; color: inherit' href='$twitter_uri'>
+                    <div class='twitter'>
+                        <div class='twitter-info'>
+                            <img alt='twitter avatar' class='twitter-avatar' src='$twitter_avatar'>
+                            <div class='twitter-info-content'>
+                                <div class='twitter-fullname'>$twitter_fullname</div>
+                                <div class='twitter-username text-small text-light'>$twitter_username</div>
+                                <div class='twitter-timestamp text-small text-light'>$twitter_timestamp</div><br>
+                            </div>
+                        </div>
+                        <div class='twitter-content'>$twitter_title</div><br>";
+                if ($twitter_enclosures != null) {
+                    echo "<img alt='twitter image' class='twitter-img' src='$twitter_enclosures'><br>";
+                }
+                    echo "
                     </div>
                 </a>";
             }
@@ -172,8 +187,8 @@ class getTwitter
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_update = "UPDATE twitter SET uri='" . $item["uri"] . "', timestamp='" . $item["timestamp"] . "', username='" . $item["username"] . "', fullname='" . $item["fullname"] . "', author='" . $item["author"] . "', avatar='" . $item["avatar"] . "', twitter_id='" . $item["id"] . "', title='" . $item["title"] . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "' WHERE twitter_id='" . $item["id"] . "'";
-        $sql_set = "INSERT INTO twitter(uri, timestamp, username, fullname, author, avatar, twitter_id, title, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["timestamp"] . "', '" . $item["username"] . "', '" . $item["fullname"] . "', '" . $item["author"] . "', '" . $item["avatar"] . "', '" . $item["id"] . "', '" . $item["title"] . "', '" . $item["content"] . "', '" . $item["enclosures"] . "')";
+        $sql_update = "UPDATE twitter SET uri='" . $item["uri"] . "', timestamp='" . $item["timestamp"] . "', username='" . $item["username"] . "', fullname='" . $item["fullname"] . "', author='" . $item["author"] . "', avatar='" . $item["avatar"] . "', twitter_id='" . $item["id"] . "', title='" . $item["title"] . "', content='" . $item["content"] . "', enclosures='" . implode($item["enclosures"]) . "' WHERE twitter_id='" . $item["id"] . "'";
+        $sql_set = "INSERT INTO twitter(uri, timestamp, username, fullname, author, avatar, twitter_id, title, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["timestamp"] . "', '" . $item["username"] . "', '" . $item["fullname"] . "', '" . $item["author"] . "', '" . $item["avatar"] . "', '" . $item["id"] . "', '" . $item["title"] . "', '" . $item["content"] . "', '" . implode($item["enclosures"]) . "')";
         mysqli_query($connect, $sql_update);
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
@@ -193,7 +208,7 @@ class getTwitter
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_set = "INSERT INTO twitter(uri, timestamp, username, fullname, author, avatar, twitter_id, title, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["timestamp"] . "', '" . $item["username"] . "', '" . $item["fullname"] . "', '" . $item["author"] . "', '" . $item["avatar"] . "', '" . $item["id"] . "', '" . $item["title"] . "', '" . $item["content"] . "', '" . $item["enclosures"] . "')";
+        $sql_set = "INSERT INTO twitter(uri, timestamp, username, fullname, author, avatar, twitter_id, title, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["timestamp"] . "', '" . $item["username"] . "', '" . $item["fullname"] . "', '" . $item["author"] . "', '" . $item["avatar"] . "', '" . $item["id"] . "', '" . $item["title"] . "', '" . $item["content"] . "', '" . implode($item["enclosures"]) . "')";
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
@@ -212,7 +227,7 @@ class getTwitter
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_update = "UPDATE twitter SET uri='" . $item["uri"] . "', timestamp='" . $item["timestamp"] . "', username='" . $item["username"] . "', fullname='" . $item["fullname"] . "', author='" . $item["author"] . "', avatar='" . $item["avatar"] . "', twitter_id='" . $item["id"] . "', title='" . $item["title"] . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "' WHERE twitter_id='" . $item["id"] . "'";
+        $sql_update = "UPDATE twitter SET uri='" . $item["uri"] . "', timestamp='" . $item["timestamp"] . "', username='" . $item["username"] . "', fullname='" . $item["fullname"] . "', author='" . $item["author"] . "', avatar='" . $item["avatar"] . "', twitter_id='" . $item["id"] . "', title='" . $item["title"] . "', content='" . $item["content"] . "', enclosures='" . implode($item["enclosures"]) . "' WHERE twitter_id='" . $item["id"] . "'";
         mysqli_query($connect, $sql_update);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);

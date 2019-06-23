@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="010a1554-e3ad-40ff-b31f-396b723b1bd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/functions/twitter/getTwitter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/twitter/jsonTwitter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/twitter/runTwitter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/twitter/setTwitter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/twitter/updateTwitter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/twitter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/twitter/getTwitter.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/twitter/getTwitter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/media.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/releases.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/releases.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,19 +24,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/releases.php">
+        <entry file="file://$PROJECT_DIR$/assets/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+            <state relative-caret-position="407">
+              <caret line="546" column="17" lean-forward="true" selection-start-line="546" selection-start-column="17" selection-end-line="546" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/media.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/releases.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="29" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/twitter/getTwitter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1786">
-              <caret line="89" column="141" selection-start-line="89" selection-start-column="141" selection-end-line="89" selection-end-column="141" />
+            <state relative-caret-position="408">
+              <caret line="105" column="60" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="60" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/releases/getReleases.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="85" lean-forward="true" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -59,15 +90,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/twitter/setTwitter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/twitter/updateTwitter.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -77,19 +99,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/html/footer.html">
+        <entry file="file://$PROJECT_DIR$/pages/news.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="493">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/news.php">
+        <entry file="file://$PROJECT_DIR$/pages/twitter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="459">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -113,8 +135,9 @@
       <find>visi</find>
       <find>News</find>
       <find>news</find>
-      <find>twitter_id</find>
       <find>generateTwitterJson</find>
+      <find>twitter_id</find>
+      <find>_</find>
     </findStrings>
     <replaceStrings>
       <replace>Release</replace>
@@ -153,20 +176,21 @@
         <option value="$PROJECT_DIR$/privacypolicy/index.html" />
         <option value="$PROJECT_DIR$/assets/php/news/updateNews.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/pages/media.php" />
         <option value="$PROJECT_DIR$/assets/html/footer.html" />
-        <option value="$PROJECT_DIR$/assets/css/base.css" />
         <option value="$PROJECT_DIR$/assets/php/news/getNews.php" />
         <option value="$PROJECT_DIR$/assets/php/news/jsonNews.php" />
         <option value="$PROJECT_DIR$/assets/php/releases/getReleases.php" />
         <option value="$PROJECT_DIR$/assets/php/releases/jsonReleases.php" />
-        <option value="$PROJECT_DIR$/pages/releases.php" />
-        <option value="$PROJECT_DIR$/pages/news.php" />
         <option value="$PROJECT_DIR$/functions/twitter/jsonTwitter.php" />
         <option value="$PROJECT_DIR$/functions/twitter/runTwitter.php" />
         <option value="$PROJECT_DIR$/functions/twitter/setTwitter.php" />
         <option value="$PROJECT_DIR$/functions/twitter/updateTwitter.php" />
         <option value="$PROJECT_DIR$/functions/twitter/getTwitter.php" />
+        <option value="$PROJECT_DIR$/assets/css/base.css" />
+        <option value="$PROJECT_DIR$/pages/releases.php" />
+        <option value="$PROJECT_DIR$/pages/twitter.php" />
+        <option value="$PROJECT_DIR$/pages/news.php" />
+        <option value="$PROJECT_DIR$/pages/media.php" />
       </list>
     </option>
   </component>
@@ -198,6 +222,12 @@
               <item name="atlas.nebulr.me" type="b2602c69:ProjectViewProjectNode" />
               <item name="atlas.nebulr.me" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlas.nebulr.me" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlas.nebulr.me" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -210,6 +240,12 @@
               <item name="atlas.nebulr.me" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
               <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlas.nebulr.me" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlas.nebulr.me" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="releases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="atlas.nebulr.me" type="b2602c69:ProjectViewProjectNode" />
@@ -236,7 +272,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/functions/twitter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -248,6 +284,7 @@
       <recent name="C:\xampp\htdocs\atlas.nebulr.me\assets\php\news" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\atlas.nebulr.me\pages" />
       <recent name="C:\xampp\htdocs\atlas.nebulr.me\functions\twitter" />
       <recent name="C:\xampp\htdocs\atlas.nebulr.me\assets\php\version" />
     </key>
@@ -287,7 +324,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62679000" />
+    <option name="totallyTimeSpent" value="65719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -305,8 +342,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.24918744" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.24918744" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.24918744" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -412,13 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="477" column="24" selection-start-line="477" selection-start-column="24" selection-end-line="477" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -493,29 +523,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/media.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="39" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/releases.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/twitter/setTwitter.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -545,10 +554,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions/releases/getReleases.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="85" lean-forward="true" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/twitter/getTwitter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1786">
-          <caret line="89" column="141" selection-start-line="89" selection-start-column="141" selection-end-line="89" selection-end-column="141" />
+        <state relative-caret-position="408">
+          <caret line="105" column="60" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="546" column="17" lean-forward="true" selection-start-line="546" selection-start-column="17" selection-end-line="546" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/twitter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/releases.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
         </state>
       </provider>
     </entry>

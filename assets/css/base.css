@@ -540,6 +540,51 @@ footer a:visited {
     text-align: center;
 }
 
+.twitter {
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 300px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    text-align: left;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.twitter:hover {
+    transition: .4s;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px 4px rgba(197, 1, 0, 0.31), 0 0 0 10px rgba(225, 0, 0, 0.06), #CCC 0 30px 50px 0;
+    /*box-shadow: 0 0 5px 3px #b7bcc5, 0 0 1px 10px #dadee6, #CCC 0 30px 50px 0;*/
+}
+
+.twitter-info {
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.twitter-info-content {
+    margin-left: 15px;
+    margin-top: -5px;
+    display: block;
+}
+
+.twitter-img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.twitter-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 480px) {
     .news {
         display: flex !important;

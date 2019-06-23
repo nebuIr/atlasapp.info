@@ -25,8 +25,9 @@
         </li>
         <li><a href="../index.php">Home</a></li>
         <li><a href="media.php">Media</a></li>
-        <li><a class="active" href="#">News</a></li>
+        <li><a href="news.php">News</a></li>
         <li><a href="releases.php">Releases</a></li>
+        <li><a class="active" href="#">Twitter</a></li>
         <?php
         $agent = strtolower($_SERVER['HTTP_USER_AGENT']);
         if (stripos($agent, 'android') !== false) {
@@ -38,9 +39,9 @@
 <main>
     <div class="grid">
         <?php
-        include_once("../functions/news/getNews.php");
+        include_once("../functions/twitter/getTwitter.php");
         $urlPage = 1;
-        $News = new getNews();
+        $News = new getTwitter();
         $News->mainHtml($urlPage);
         ?>
         <?php
