@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="010a1554-e3ad-40ff-b31f-396b723b1bd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/functions/version/setVersion.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/version/setVersion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/version/updateVersion.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/version/updateVersion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/media.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/media.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,24 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/news/updateNews.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/news/setNews.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/news/runNews.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,11 +68,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sitemap.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="527">
+              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="623" column="5" lean-forward="true" selection-start-line="623" selection-start-column="5" selection-end-line="623" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/media.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -113,7 +112,6 @@
       <find>home-logo</find>
       <find>font</find>
       <find>famil</find>
-      <find>card</find>
       <find>text</find>
       <find>getJsonData</find>
       <find>Release</find>
@@ -127,6 +125,7 @@
       <find>generateTwitterJson</find>
       <find>twitter_id</find>
       <find>_</find>
+      <find>card</find>
     </findStrings>
     <replaceStrings>
       <replace>Release</replace>
@@ -168,11 +167,9 @@
         <option value="$PROJECT_DIR$/assets/php/news/jsonNews.php" />
         <option value="$PROJECT_DIR$/assets/php/releases/getReleases.php" />
         <option value="$PROJECT_DIR$/assets/php/releases/jsonReleases.php" />
-        <option value="$PROJECT_DIR$/assets/css/base.css" />
         <option value="$PROJECT_DIR$/pages/releases.php" />
         <option value="$PROJECT_DIR$/pages/twitter.php" />
         <option value="$PROJECT_DIR$/pages/news.php" />
-        <option value="$PROJECT_DIR$/pages/media.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/functions/twitter/getTwitter.php" />
         <option value="$PROJECT_DIR$/functions/twitter/runTwitter.php" />
@@ -190,6 +187,8 @@
         <option value="$PROJECT_DIR$/functions/version/setVersion.php" />
         <option value="$PROJECT_DIR$/functions/version/updateVersion.php" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
+        <option value="$PROJECT_DIR$/pages/media.php" />
+        <option value="$PROJECT_DIR$/assets/css/base.css" />
       </list>
     </option>
   </component>
@@ -325,12 +324,12 @@
       <workItem from="1561047743339" duration="15542000" />
       <workItem from="1561140314626" duration="21103000" />
       <workItem from="1561224588692" duration="1155000" />
-      <workItem from="1561256390763" duration="56000" />
+      <workItem from="1561256390763" duration="1895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67777000" />
+    <option name="totallyTimeSpent" value="69616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -446,13 +445,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="546" column="17" lean-forward="true" selection-start-line="546" selection-start-column="17" selection-end-line="546" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/twitter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -471,13 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/media.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="29" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -608,8 +593,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="527">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="623" column="5" lean-forward="true" selection-start-line="623" selection-start-column="5" selection-end-line="623" selection-end-column="5" />
         </state>
       </provider>
     </entry>

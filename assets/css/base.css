@@ -586,11 +586,20 @@ footer a:visited {
 }
 
 @media (max-width: 480px) {
+    .version-div {
+        width: 95% !important;
+    }
+
     .news {
         display: flex !important;
         flex-direction: row;
         flex-wrap: wrap;
         width: 95% !important;
+        margin-left: 12px !important;
+    }
+
+    .twitter {
+        width: 80% !important;
         margin-left: 12px !important;
     }
 
@@ -607,8 +616,7 @@ footer a:visited {
     }
 
     .card-mobile {
-        display: block;
-    !important;
+        display: block !important;
         margin-left: -20px !important;
     }
 
@@ -622,6 +630,10 @@ footer a:visited {
     }
 
     .news:hover {
+        box-shadow: 0 0 0 5px rgba(197, 1, 0, 0.31) !important;
+    }
+
+    .twitter:hover {
         box-shadow: 0 0 0 5px rgba(197, 1, 0, 0.31) !important;
     }
 }
