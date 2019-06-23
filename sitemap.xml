@@ -27,6 +27,11 @@
         <priority>0.80</priority>
     </url>
     <url>
+        <loc>https://atlas.nebulr.me/pages/twitter.php</loc>
+        <lastmod>2019-06-23T04:20:45+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
         <loc>https://atlas.nebulr.me/privacypolicy/index.html</loc>
         <lastmod>2019-06-20T22:50:13+00:00</lastmod>
         <priority>0.50</priority>

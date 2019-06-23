@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="010a1554-e3ad-40ff-b31f-396b723b1bd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/news/getNews.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/news/getNews.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/news/runNews.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/news/runNews.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/news/setNews.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/news/setNews.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/news/updateNews.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/news/updateNews.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/releases/getReleases.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/releases/getReleases.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/releases/runReleases.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/releases/runReleases.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/releases/setReleases.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/releases/setReleases.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/releases/updateReleases.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/releases/updateReleases.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/twitter/getTwitter.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/twitter/getTwitter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/twitter/runTwitter.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/twitter/runTwitter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/twitter/setTwitter.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/twitter/setTwitter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/twitter/updateTwitter.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/twitter/updateTwitter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/version/setVersion.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/version/setVersion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/version/updateVersion.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/version/updateVersion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,51 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/twitter/jsonTwitter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/releases/updateReleases.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/releases/setReleases.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/releases/runReleases.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/releases/getReleases.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/news/updateNews.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,11 +46,52 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/news/getNews.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/version/getVersion.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/version/jsonVersion.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/version/setVersion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/version/updateVersion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sitemap.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -175,7 +161,6 @@
         <option value="$PROJECT_DIR$/assets/php/version/setVersion.php" />
         <option value="$PROJECT_DIR$/assets/php/version/runVersion.php" />
         <option value="$PROJECT_DIR$/assets/php/version/getVersion.php" />
-        <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/privacypolicy/index.html" />
         <option value="$PROJECT_DIR$/assets/php/news/updateNews.php" />
         <option value="$PROJECT_DIR$/assets/html/footer.html" />
@@ -202,6 +187,9 @@
         <option value="$PROJECT_DIR$/functions/news/setNews.php" />
         <option value="$PROJECT_DIR$/functions/news/runNews.php" />
         <option value="$PROJECT_DIR$/functions/news/getNews.php" />
+        <option value="$PROJECT_DIR$/functions/version/setVersion.php" />
+        <option value="$PROJECT_DIR$/functions/version/updateVersion.php" />
+        <option value="$PROJECT_DIR$/sitemap.xml" />
       </list>
     </option>
   </component>
@@ -263,6 +251,12 @@
               <item name="atlas.nebulr.me" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
               <item name="twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atlas.nebulr.me" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atlas.nebulr.me" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="version" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="atlas.nebulr.me" type="b2602c69:ProjectViewProjectNode" />
@@ -331,17 +325,18 @@
       <workItem from="1561047743339" duration="15542000" />
       <workItem from="1561140314626" duration="21103000" />
       <workItem from="1561224588692" duration="1155000" />
+      <workItem from="1561256390763" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67721000" />
+    <option name="totallyTimeSpent" value="67777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -390,6 +385,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
@@ -407,52 +416,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/version/updateVersion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/version/setVersion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/version/getVersion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/releases/setReleases.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/releases/updateReleases.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/releases/runReleases.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/php/version/updateVersion.php" />
+    <entry file="file://$PROJECT_DIR$/assets/php/version/setVersion.php" />
+    <entry file="file://$PROJECT_DIR$/assets/php/version/getVersion.php" />
+    <entry file="file://$PROJECT_DIR$/assets/php/releases/setReleases.php" />
+    <entry file="file://$PROJECT_DIR$/assets/php/releases/updateReleases.php" />
+    <entry file="file://$PROJECT_DIR$/assets/php/releases/runReleases.php" />
     <entry file="file://$PROJECT_DIR$/privacypolicy/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -460,66 +429,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/news/setNews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/news/runNews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/news/updateNews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/news/jsonNews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" lean-forward="true" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/news/getNews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/releases/getReleases.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="38" selection-start-line="38" selection-end-line="65" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/releases/jsonReleases.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/php/news/setNews.php" />
+    <entry file="file://$PROJECT_DIR$/assets/php/news/runNews.php" />
+    <entry file="file://$PROJECT_DIR$/assets/php/news/updateNews.php" />
+    <entry file="file://$PROJECT_DIR$/assets/php/news/jsonNews.php" />
+    <entry file="file://$PROJECT_DIR$/assets/php/news/getNews.php" />
+    <entry file="file://$PROJECT_DIR$/assets/php/releases/getReleases.php" />
+    <entry file="file://$PROJECT_DIR$/assets/php/releases/jsonReleases.php" />
     <entry file="file://$PROJECT_DIR$/assets/html/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -596,24 +512,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/twitter/updateTwitter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/twitter/jsonTwitter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/releases/updateReleases.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-line="4" />
+          <caret column="5" selection-start-column="5" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -659,10 +568,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions/twitter/updateTwitter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/news/getNews.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/version/getVersion.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/version/jsonVersion.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/version/setVersion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/version/updateVersion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
         </state>
       </provider>
     </entry>
