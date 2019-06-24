@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <title>Welcome</title>
     <link href="assets/css/base.css" type="text/css" rel="stylesheet"/>
     <link rel="shortcut icon" href="assets/img/favicon.ico">
@@ -10,11 +9,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
-    <script src="assets/js/base.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68526906-4"></script>
+    <script src="../assets/js/gtag.js"></script>
+    <script src="../assets/js/base.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
-
 </head>
 
 <body>
@@ -79,7 +79,7 @@
     </div>
 </main>
 <?php
-    include ("assets/html/footer.html");
+include("assets/html/footer.html");
 ?>
 </body>
 
