@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68526906-4"></script>
     <script src="../assets/js/gtag.js"></script>
     <script src="../assets/js/base.js"></script>
@@ -40,22 +41,10 @@
 
 <main>
     <div class="grid">
-        <?php
-        include_once("../functions/twitter/getTwitter.php");
-        $urlPage = 1;
-        $News = new getTwitter();
-        $News->mainHtml($urlPage);
-        ?>
-        <?php
-        if (array_key_exists('next_page', $_POST)) {
-            $urlPage++;
-            $News->nextPage($urlPage);
-        }
-        ?>
-        <form method="post">
-            <input style="border-style: none; margin-top: 100px;" class="button" type="submit" name="next_page"
-                   id="next_page" value="Load more..."/>
-        </form>
+        <div class="twitter-timeline-div">
+            <a class="twitter-timeline" href="https://twitter.com/NoMansSky?ref_src=twsrc%5Etfw">Tweets by NoMansSky</a>
+        </div>
+    </div>
 </main>
 <?php
 include ("../assets/html/footer.html");

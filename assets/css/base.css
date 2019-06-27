@@ -540,6 +540,15 @@ footer a:visited {
     text-align: center;
 }
 
+.twitter-timeline-div {
+    margin: 40px;
+    display: inline-block;
+    width:65%;
+    background: #f8f8f8;
+    border-radius: 10px;
+    transition: .4s;
+}
+
 .twitter {
     margin: 20px;
     padding: 20px;
@@ -596,6 +605,11 @@ footer a:visited {
         flex-wrap: wrap;
         width: 95% !important;
         margin-left: 12px !important;
+    }
+
+    .twitter-timeline-div {
+        width: 90% !important;
+        margin-left: 10px !important;
     }
 
     .twitter {
