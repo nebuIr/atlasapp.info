@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Releases</title>
+    <title>News</title>
     <link href="../assets/css/base.css" type="text/css" rel="stylesheet"/>
     <link rel="shortcut icon" href="../assets/img/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -21,15 +21,15 @@
 
 <nav>
     <ul>
-        <li style="margin-right: 10px"><a href="../index.php"><img alt="atlas logo"
+        <li style="margin-right: 10px"><a href="../"><img alt="atlas logo"
                                                                    style="width: 50px; height: 50px; margin-top: -15px;"
                                                                    src="../assets/img/brand/logo_circle_192px.png"/></a>
         </li>
-        <li><a href="../index.php">Home</a></li>
-        <li><a href="media.php">Media</a></li>
-        <li><a href="news.php">News</a></li>
-        <li><a class="active" href="#">Releases</a></li>
-        <li><a href="twitter.php">Twitter</a></li>
+        <li><a href="../">Home</a></li>
+        <li><a href="../media">Media</a></li>
+        <li><a class="active" href="#">News</a></li>
+        <li><a href="../releases">Releases</a></li>
+        <li><a href="../twitter">Twitter</a></li>
         <?php
         $agent = strtolower($_SERVER['HTTP_USER_AGENT']);
         if (stripos($agent, 'android') !== false) {
@@ -41,18 +41,15 @@
 <main>
     <div class="grid">
         <?php
-        include_once("../functions/releases/getReleases.php");
-        include_once("../functions/version/getVersion.php");
+        include_once("../functions/news/getNews.php");
         $urlPage = 1;
-        $Version = new getVersion();
-        $Version->mainHtml();
-        $Releases = new getReleases();
-        $Releases->mainHtml($urlPage);
+        $News = new getNews();
+        $News->mainHtml($urlPage);
         ?>
         <?php
         if (array_key_exists('next_page', $_POST)) {
             $urlPage++;
-            $Releases->nextPage($urlPage);
+            $News->nextPage($urlPage);
         }
         ?>
         <form method="post">

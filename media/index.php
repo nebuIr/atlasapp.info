@@ -22,14 +22,14 @@
 <nav>
     <ul>
         <li style="margin-right: 10px">
-            <a href="../index.php"><img alt="atlas logo" style="width: 50px; height: 50px; margin-top: -15px;"
+            <a href="../"><img alt="atlas logo" style="width: 50px; height: 50px; margin-top: -15px;"
                                         src="../assets/img/brand/logo_circle_192px.png"/></a>
         </li>
-        <li><a href="../index.php">Home</a></li>
+        <li><a href="../">Home</a></li>
         <li><a class="active" href="#">Media</a></li>
-        <li><a href="news.php">News</a></li>
-        <li><a href="releases.php">Releases</a></li>
-        <li><a href="twitter.php">Twitter</a></li>
+        <li><a href="../news">News</a></li>
+        <li><a href="../releases">Releases</a></li>
+        <li><a href="../twitter">Twitter</a></li>
         <?php
         $agent = strtolower($_SERVER['HTTP_USER_AGENT']);
         if (stripos($agent, 'android') !== false) {

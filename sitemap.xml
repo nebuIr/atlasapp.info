@@ -8,32 +8,32 @@
 
     <url>
         <loc>https://atlas.nebulr.me/</loc>
-        <lastmod>2019-06-21T23:53:41+00:00</lastmod>
+        <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://atlas.nebulr.me/pages/media.php</loc>
-        <lastmod>2019-06-21T23:53:41+00:00</lastmod>
+        <loc>https://atlas.nebulr.me/media/</loc>
+        <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://atlas.nebulr.me/pages/news.php</loc>
-        <lastmod>2019-06-21T23:53:41+00:00</lastmod>
+        <loc>https://atlas.nebulr.me/news/</loc>
+        <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://atlas.nebulr.me/pages/releases.php</loc>
-        <lastmod>2019-06-21T23:53:41+00:00</lastmod>
+        <loc>https://atlas.nebulr.me/releases/</loc>
+        <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://atlas.nebulr.me/pages/twitter.php</loc>
-        <lastmod>2019-06-23T04:20:45+00:00</lastmod>
+        <loc>https://atlas.nebulr.me/twitter/</loc>
+        <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://atlas.nebulr.me/privacypolicy/index.html</loc>
-        <lastmod>2019-06-20T22:50:13+00:00</lastmod>
+        <loc>https://atlas.nebulr.me/privacypolicy/</loc>
+        <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>0.50</priority>
     </url>
 </urlset>
