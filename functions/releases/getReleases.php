@@ -49,7 +49,7 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT id, uri, title, platforms, content, enclosures FROM releases ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
+        $sql_get = "SELECT id, uri, title, platforms, content, enclosures, description FROM releases ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
         $data = mysqli_query($connect, $sql_get);
         $output = array();
 
@@ -76,7 +76,7 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT uri, title, platforms, content, enclosures FROM releases ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
+        $sql_get = "SELECT uri, title, platforms, content, enclosures, description FROM releases ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
         $data = mysqli_query($connect, $sql_get);
 
         if (mysqli_num_rows($data) > 0) {
@@ -165,8 +165,8 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_update = "UPDATE releases SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', platforms='" . $item["timestamp"] . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "' WHERE uri='" . $item["uri"] . "'";
-        $sql_set = "INSERT INTO releases(uri, title, platforms, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $item["content"] . "', '" . $item["enclosures"] . "')";
+        $sql_update = "UPDATE releases SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', platforms='" . $item["timestamp"] . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "', description='" . $item["description"] . "' WHERE uri='" . $item["uri"] . "'";
+        $sql_set = "INSERT INTO releases(uri, title, platforms, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $item["content"] . "', '" . $item["enclosures"] . "', '" . $item["description"] . "')";
         mysqli_query($connect, $sql_update);
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
@@ -185,7 +185,7 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_set = "INSERT INTO releases(uri, title, platforms, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $item["content"] . "', '" . $item["enclosures"] . "')";
+        $sql_set = "INSERT INTO releases(uri, title, platforms, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $item["content"] . "', '" . $item["enclosures"] . "', '" . $item["description"] . "')";
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
@@ -203,7 +203,7 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_update = "UPDATE releases SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', platforms='" . $item["timestamp"] . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "' WHERE uri='" . $item["uri"] . "'";
+        $sql_update = "UPDATE releases SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', platforms='" . $item["timestamp"] . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "', description='" . $item["description"] . "' WHERE uri='" . $item["uri"] . "'";
         mysqli_query($connect, $sql_update);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);

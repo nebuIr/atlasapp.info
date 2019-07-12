@@ -51,7 +51,7 @@ class getNews
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT id, uri, title, timestamp, date, content, enclosures FROM news ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
+        $sql_get = "SELECT id, uri, title, timestamp, date, content, enclosures, description FROM news ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
         $data = mysqli_query($connect, $sql_get);
         $output = array();
 
@@ -78,7 +78,7 @@ class getNews
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT uri, title, timestamp, date, content, enclosures FROM news ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
+        $sql_get = "SELECT uri, title, timestamp, date, content, enclosures, description FROM news ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
         $data = mysqli_query($connect, $sql_get);
 
         if (mysqli_num_rows($data) > 0) {
@@ -182,8 +182,8 @@ class getNews
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_update = "UPDATE news SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', date='" . $timestamp . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "' WHERE timestamp='" . $item["timestamp"] . "'";
-        $sql_set = "INSERT INTO news(uri, title, timestamp, date, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $timestamp . "', '" . $item["content"] . "', '" . $item["enclosures"] . "')";
+        $sql_update = "UPDATE news SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', date='" . $timestamp . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "', description='" . $item["description"] . "' WHERE timestamp='" . $item["timestamp"] . "'";
+        $sql_set = "INSERT INTO news(uri, title, timestamp, date, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $timestamp . "', '" . $item["content"] . "', '" . $item["enclosures"] . "', '" . $item["description"] . "')";
         mysqli_query($connect, $sql_update);
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
@@ -203,7 +203,7 @@ class getNews
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_set = "INSERT INTO news(uri, title, timestamp, date, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $timestamp . "', '" . $item["content"] . "', '" . $item["enclosures"] . "')";
+        $sql_set = "INSERT INTO news(uri, title, timestamp, date, content, enclosures, description) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $timestamp . "', '" . $item["content"] . "', '" . $item["enclosures"] . "', '" . $item["description"] . "')";
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
@@ -222,7 +222,7 @@ class getNews
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_update = "UPDATE news SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', date='" . $timestamp . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "' WHERE timestamp='" . $item["timestamp"] . "'";
+        $sql_update = "UPDATE news SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', date='" . $timestamp . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "', description='" . $item["description"] . "' WHERE timestamp='" . $item["timestamp"] . "'";
         mysqli_query($connect, $sql_update);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
