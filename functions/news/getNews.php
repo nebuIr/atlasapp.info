@@ -30,9 +30,9 @@ class getNews
             <a  style='text-decoration: none; color: inherit' href='$news_uri'>
                 <div class='news'>
                     <img alt='news image' class='news-img' src='$news_enclosures'><br>
-                    <h2 style='margin-bottom: 5px' class='nms news-text-padding-side'>$news_title</h2>
-                    <div class='text-small text-light news-text-padding-side'>$news_timestamp</div><br>
-                    <div class='text-light news-text-padding-side news-text-padding-bottom'>$news_content</div><br>
+                    <h2 style='margin-bottom: 5px' class='quicksand news-text-padding-side'>$news_title</h2>
+                    <div class='text-small text-light quicksand news-text-padding-side'>$news_timestamp</div><br>
+                    <div class='text-light quicksand news-text-padding-side news-text-padding-bottom'>$news_content</div><br>
                 </div>
             </a>";
         }
@@ -87,9 +87,9 @@ class getNews
                 <a  style='text-decoration: none; color: inherit' href=" . $row["uri"] . ">
                     <div class='news'>
                         <img alt='news image' class='news-img' src=" . $row["enclosures"] . "><br>
-                        <h2 style='margin-bottom: 5px' class='nms news-text-padding-side'>" . $row["title"] . "</h2>
-                        <div class='text-small text-light news-text-padding-side'>" . $row["date"] . "</div><br>
-                        <div class='text-light news-text-padding-side news-text-padding-bottom'>" . $row["content"] . "</div><br>
+                        <h2 style='margin-bottom: 5px' class='quicksand news-text-padding-side'>" . $row["title"] . "</h2>
+                        <div class='text-small text-light quicksand news-text-padding-side'>" . $row["date"] . "</div><br>
+                        <div class='text-light quicksand news-text-padding-side news-text-padding-bottom'>" . $row["content"] . "</div><br>
                     </div>
                 </a>";
             }
