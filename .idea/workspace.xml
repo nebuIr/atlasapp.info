@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="010a1554-e3ad-40ff-b31f-396b723b1bd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/img/media/achievements_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/achievements_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/achievements_dark_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/achievements_dark_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/dash_1_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/dash_1_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/dash_1_dark_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/dash_1_dark_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/dash_2_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/dash_2_light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/dash_2_light_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/dash_2_light_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/dash_3_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/dash_3_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/dash_3_dark_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/dash_3_dark_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/products_details_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/products_details_light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/products_details_light_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/products_details_light_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/resources_details_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/resources_details_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/resources_details_dark_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/resources_details_dark_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/resources_list_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/resources_list_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/media/resources_list_dark_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/media/resources_list_dark_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/screens/dash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/screens/dash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/screens/dash_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/screens/dash_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/screens/dash_1_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/screens/dash_1_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/screens/dash_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/screens/dash_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/screens/dash_2_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/screens/dash_2_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/screens/dash_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/screens/dash_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/screens/dash_3_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/screens/dash_3_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/screens/dash_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/screens/dash_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/screens/dash_small_compressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/screens/dash_small_compressed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/media/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/releases/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="646">
               <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
             </state>
           </provider>
@@ -60,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/version/getVersion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
+            <state relative-caret-position="1445">
               <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
             </state>
           </provider>
@@ -70,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/functions/releases/getReleases.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -105,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/news/getNews.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
+            <state relative-caret-position="561">
               <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
             </state>
           </provider>
@@ -114,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1751">
+            <state relative-caret-position="748">
               <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
             </state>
           </provider>
@@ -360,17 +338,17 @@
       <workItem from="1563723357196" duration="86000" />
       <workItem from="1563723453585" duration="339000" />
       <workItem from="1563804046125" duration="4172000" />
+      <workItem from="1563811441046" duration="127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78302000" />
+    <option name="totallyTimeSpent" value="78429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31236672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31556502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -383,7 +361,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.42470205" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.24918744" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" visible="true" weight="0.24918744" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.24918744" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -608,44 +586,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1751">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/html/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/releases/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="646">
           <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/version/getVersion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
+        <state relative-caret-position="1445">
           <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
         </state>
       </provider>
@@ -657,17 +607,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/media/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/html/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/news/getNews.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
+        <state relative-caret-position="561">
           <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/releases/getReleases.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>

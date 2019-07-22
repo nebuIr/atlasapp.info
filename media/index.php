@@ -64,6 +64,10 @@
             <img alt="screenshot" class="card-img-full" src="../assets/img/media/achievements_dark_small.png"/>
         </div>
 
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/exocraft_list_light_small.png"/>
+        </div>
+
     </div>
 </main>
 <?php
