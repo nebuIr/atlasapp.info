@@ -29,13 +29,24 @@
 }
 
 .nms {
+    font-family: 'nms', 'Quicksand', sans-serif;
+}
 
-    font-family: 'nms', 'Varela Round', sans-serif;
+.quicksand-light {
+    font-family: 'Quicksand Light', sans-serif;
+}
+
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.quicksand-medium {
+    font-family: 'Quicksand Medium', sans-serif;
 }
 
 body {
     background-color: #fff;
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 nav {

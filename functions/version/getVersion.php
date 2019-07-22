@@ -78,9 +78,9 @@ class getVersion
                 echo "
                 <a  style='text-decoration: none; color: inherit' href=" . $row["uri"] . ">
                     <div class='version-div'>
-                        <div class='version-note text-light'>Latest version:</div>
-                        <h2 style='margin-bottom: 5px' class='version-title nms news-text-padding-side'>" . $row["title"] . "</h2>
-                        <div class='version text-light news-text-padding-side'>" . $row["content"] . "</div><br>
+                        <div class='version-note text-light quicksand-medium'>Latest version:</div>
+                        <h2 style='margin-bottom: 5px' class='version-title quicksand news-text-padding-side'>" . $row["title"] . "</h2>
+                        <div class='version text-light quicksand-medium news-text-padding-side'>" . $row["content"] . "</div><br>
                     </div>
                 </a>";
             }
