@@ -40,10 +40,6 @@
         Sky on your Android Device.<br/>
         It provides fast access to all items including basic information, recipes and values.</p>
     <!--<a href='https://play.google.com/store/apps/details?id=me.nebulr.atlas&utm_source=wh&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style="margin-left: auto; margin-right: auto; display: block" height="100px" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>-->
-    <div class="button-wrapper">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3qRh8b1G83AexOIpyCNXetd7QCFUeijKmO8qSzxVP4hObYQ/viewform"
-           class="button quicksand">Register for Alpha</a>
-    </div>
     <img alt="app screenshots" class="dash-show" src="assets/img/screens/dash_small_compressed.png" width="80%">
     <div class="grid frontpage">
         <div class="card card-mobile">
