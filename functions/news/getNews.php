@@ -197,23 +197,8 @@ class getNews
 
     public function querySql($item)
     {
-        $server = "localhost:3306";
-        $username = "atlas";
-        $password = "K*8}HB?stZQ(:5r%JpRc";
-        $database = "atlas";
-
-        $timestamp = date('F d\, Y \a\t h:iA', $item['timestamp']);
-        $connect = mysqli_connect("$server", "$username", "$password", "$database");
-        if (!$connect) {
-            die("Connection failed: " . mysqli_connect_error());
-        };
-
-        $sql_update = "UPDATE news SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', date='" . $timestamp . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "', description='" . $item["description"] . "' WHERE timestamp='" . $item["timestamp"] . "'";
-        $sql_set = "INSERT INTO news(uri, title, timestamp, date, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $timestamp . "', '" . $item["content"] . "', '" . $item["enclosures"] . "', '" . $item["description"] . "')";
-        mysqli_query($connect, $sql_update);
-        mysqli_query($connect, $sql_set);
-        var_dump(mysqli_error_list($connect));
-        mysqli_close($connect);
+        $this->querySqlSet($item);
+        $this->querySqlUpdate($item);
     }
 
     public function querySqlSet($item)

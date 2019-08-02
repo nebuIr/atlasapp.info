@@ -181,22 +181,8 @@ class getReleases
 
     public function querySql($item)
     {
-        $server = "localhost:3306";
-        $username = "atlas";
-        $password = "K*8}HB?stZQ(:5r%JpRc";
-        $database = "atlas";
-
-        $connect = mysqli_connect("$server", "$username", "$password", "$database");
-        if (!$connect) {
-            die("Connection failed: " . mysqli_connect_error());
-        };
-
-        $sql_update = "UPDATE releases SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', platforms='" . $item["timestamp"] . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "', description='" . $item["description"] . "' WHERE uri='" . $item["uri"] . "'";
-        $sql_set = "INSERT INTO releases(uri, title, platforms, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $item["content"] . "', '" . $item["enclosures"] . "', '" . $item["description"] . "')";
-        mysqli_query($connect, $sql_update);
-        mysqli_query($connect, $sql_set);
-        var_dump(mysqli_error_list($connect));
-        mysqli_close($connect);
+        $this->querySqlSet($item);
+        $this->querySqlUpdate($item);
     }
 
     public function querySqlSet($item)
