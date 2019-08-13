@@ -19,9 +19,9 @@ class getVersion
     public function generateVersionFeed()
     {
         foreach ($this->getJson() as $item) {
-            $version_uri = $item["uri"];
-            $version_title = $item["title"];
-            $version_content = $item["content"];
+            $version_uri = $item["url"];
+            $version_title = $item["version"];
+            $version_content = $item["date"];
             echo "
             <a  style='text-decoration: none; color: inherit' href='$version_uri'>
                 <div class='news'>
@@ -44,7 +44,7 @@ class getVersion
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT id, uri, title, content FROM version";
+        $sql_get = "SELECT id, url, version, date FROM version";
         $data = mysqli_query($connect, $sql_get);
         $output = array();
 
@@ -71,7 +71,7 @@ class getVersion
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT uri, title, content FROM version ";
+        $sql_get = "SELECT url, version, date FROM version ";
         $data = mysqli_query($connect, $sql_get);
 
         if (mysqli_num_rows($data) > 0) {
@@ -134,7 +134,7 @@ class getVersion
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_set = "INSERT INTO version(uri, title, content) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["content"] . "')";
+        $sql_set = "INSERT INTO version(url, version, date) VALUES('" . $item["url"] . "', '" . $item["version"] . "', '" . $item["date"] . "')";
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
@@ -152,7 +152,7 @@ class getVersion
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_update = "UPDATE version SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', content='" . $item["content"] . "' WHERE id='0'";
+        $sql_update = "UPDATE version SET url='" . $item["url"] . "', version='" . $item["version"] . "', date='" . $item["date"] . "' WHERE id='0'";
         mysqli_query($connect, $sql_update);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);

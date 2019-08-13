@@ -20,12 +20,12 @@ class getNews
     public function generateNewsFeed(int $urlPage)
     {
         foreach ($this->getJson($urlPage) as $item) {
-            $news_uri = $item["uri"];
+            $news_uri = $item["url"];
             $news_title = $item["title"];
             $news_timestamp_orig = $item["timestamp"];
             $news_timestamp = date('F d\, Y \a\t h:iA', $news_timestamp_orig);
-            $news_content = $item["content"];
-            $news_enclosures = $item["enclosures"];
+            $news_content = $item["teaser"];
+            $news_enclosures = $item["image"];
             echo "
             <a  style='text-decoration: none; color: inherit' href='$news_uri'>
                 <div class='news'>
@@ -51,7 +51,7 @@ class getNews
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT id, uri, title, timestamp, date, content, enclosures, description FROM news ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
+        $sql_get = "SELECT id, url, title, timestamp, date, teaser, image, content FROM news ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
         $data = mysqli_query($connect, $sql_get);
         $output = array();
 
@@ -78,7 +78,7 @@ class getNews
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT id, uri, title, timestamp, date, content, enclosures, description FROM news ORDER BY id DESC";
+        $sql_get = "SELECT id, url, title, timestamp, date, teaser, image, content FROM news ORDER BY id DESC";
         $data = mysqli_query($connect, $sql_get);
         $output = array();
 
@@ -106,18 +106,18 @@ class getNews
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT uri, title, timestamp, date, content, enclosures, description FROM news ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
+        $sql_get = "SELECT url, title, timestamp, date, teaser, image, content FROM news ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
         $data = mysqli_query($connect, $sql_get);
 
         if (mysqli_num_rows($data) > 0) {
             while ($row = mysqli_fetch_assoc($data)) {
                 echo "
-                <a  style='text-decoration: none; color: inherit' href=" . $row["uri"] . ">
+                <a  style='text-decoration: none; color: inherit' href=" . $row["url"] . ">
                     <div class='news'>
-                        <img alt='news image' class='news-img' src=" . $row["enclosures"] . "><br>
+                        <img alt='news image' class='news-img' src=" . $row["image"] . "><br>
                         <h2 style='margin-bottom: 5px' class='quicksand news-text-padding-side'>" . $row["title"] . "</h2>
                         <div class='text-small text-light quicksand news-text-padding-side'>" . $row["date"] . "</div><br>
-                        <div class='text-light quicksand news-text-padding-side news-text-padding-bottom'>" . $row["content"] . "</div><br>
+                        <div class='text-light quicksand news-text-padding-side news-text-padding-bottom'>" . $row["teaser"] . "</div><br>
                     </div>
                 </a>";
             }
@@ -216,7 +216,7 @@ class getNews
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_set = "INSERT INTO news(uri, title, timestamp, date, content, enclosures, description) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $timestamp . "', '" . $item["content"] . "', '" . $item["enclosures"] . "', '" . $item["description"] . "')";
+        $sql_set = "INSERT INTO news(url, title, timestamp, date, teaser, image, content) VALUES('" . $item["url"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $timestamp . "', '" . $item["teaser"] . "', '" . $item["image"] . "', '" . $item["content"] . "')";
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
@@ -235,7 +235,7 @@ class getNews
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_update = "UPDATE news SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', date='" . $timestamp . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "', description='" . $item["description"] . "' WHERE timestamp='" . $item["timestamp"] . "'";
+        $sql_update = "UPDATE news SET url='" . $item["url"] . "', title='" . $item["title"] . "', date='" . $timestamp . "', teaser='" . $item["teaser"] . "', image='" . $item["image"] . "', content='" . $item["content"] . "' WHERE timestamp='" . $item["timestamp"] . "'";
         mysqli_query($connect, $sql_update);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);

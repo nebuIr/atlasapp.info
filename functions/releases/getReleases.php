@@ -19,11 +19,11 @@ class getReleases
     public function generateReleasesFeed()
     {
         foreach ($this->getJson() as $item) {
-            $releases_uri = $item["uri"];
+            $releases_uri = $item["url"];
             $releases_title = $item["title"];
             $releases_platforms = $item["timestamp"];
-            $releases_content = $item["content"];
-            $releases_enclosures = $item["enclosures"];
+            $releases_content = $item["teaser"];
+            $releases_enclosures = $item["image"];
             echo "
             <a  style='text-decoration: none; color: inherit' href='$releases_uri'>
                 <div class='news'>
@@ -49,7 +49,7 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT id, uri, title, platforms, content, enclosures, description FROM releases ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
+        $sql_get = "SELECT id, url, title, platforms, teaser, image, content FROM releases ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
         $data = mysqli_query($connect, $sql_get);
         $output = array();
 
@@ -76,7 +76,7 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT id, uri, title, platforms, content, enclosures, description FROM releases ORDER BY id DESC";
+        $sql_get = "SELECT id, url, title, platforms, teaser, image, content FROM releases ORDER BY id DESC";
         $data = mysqli_query($connect, $sql_get);
         $output = array();
 
@@ -104,7 +104,7 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql_get = "SELECT uri, title, platforms, content, enclosures, description FROM releases ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
+        $sql_get = "SELECT url, title, platforms, teaser, image, content FROM releases ORDER BY id DESC LIMIT 10 OFFSET " . "$count";
         $data = mysqli_query($connect, $sql_get);
 
         if (mysqli_num_rows($data) > 0) {
@@ -114,12 +114,12 @@ class getReleases
                 $platforms = str_replace($pattern, $replace, $row["platforms"]);
                 $row["platforms"] = $platforms;
                 echo "
-                <a  style='text-decoration: none; color: inherit' href=" . $row["uri"] . ">
+                <a  style='text-decoration: none; color: inherit' href=" . $row["url"] . ">
                     <div class='news'>
-                        <img alt='release image'class='news-img' src=" . $row["enclosures"] . "><br>
+                        <img alt='release image'class='news-img' src=" . $row["image"] . "><br>
                         <h2 style='margin-bottom: 5px' class='quicksand news-text-padding-side'>" . $row["title"] . "</h2>
                         <div class='platforms-wrap'>" . $row["platforms"] . "</div><br>
-                        <div class='text-light quicksand news-text-padding-side news-text-padding-bottom'>" . $row["content"] . "</div><br>
+                        <div class='text-light quicksand news-text-padding-side news-text-padding-bottom'>" . $row["teaser"] . "</div><br>
                     </div>
                 </a>";
             }
@@ -199,7 +199,7 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_set = "INSERT INTO releases(uri, title, platforms, content, enclosures) VALUES('" . $item["uri"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $item["content"] . "', '" . $item["enclosures"] . "', '" . $item["description"] . "')";
+        $sql_set = "INSERT INTO releases(url, title, platforms, teaser, image) VALUES('" . $item["url"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $item["teaser"] . "', '" . $item["image"] . "', '" . $item["content"] . "')";
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
@@ -217,7 +217,7 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_update = "UPDATE releases SET uri='" . $item["uri"] . "', title='" . $item["title"] . "', platforms='" . $item["timestamp"] . "', content='" . $item["content"] . "', enclosures='" . $item["enclosures"] . "', description='" . $item["description"] . "' WHERE uri='" . $item["uri"] . "'";
+        $sql_update = "UPDATE releases SET url='" . $item["url"] . "', title='" . $item["title"] . "', platforms='" . $item["timestamp"] . "', teaser='" . $item["teaser"] . "', image='" . $item["image"] . "', content='" . $item["content"] . "' WHERE url='" . $item["url"] . "'";
         mysqli_query($connect, $sql_update);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
