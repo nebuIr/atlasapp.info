@@ -21,7 +21,7 @@ class getReleases
         foreach ($this->getJson() as $item) {
             $releases_uri = $item["url"];
             $releases_title = $item["title"];
-            $releases_platforms = $item["timestamp"];
+            $releases_platforms = $item["platforms"];
             $releases_content = $item["teaser"];
             $releases_enclosures = $item["image"];
             echo "
@@ -199,7 +199,7 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_set = "INSERT INTO releases(url, title, platforms, teaser, image) VALUES('" . $item["url"] . "', '" . $item["title"] . "', '" . $item["timestamp"] . "', '" . $item["teaser"] . "', '" . $item["image"] . "', '" . $item["content"] . "')";
+        $sql_set = "INSERT INTO releases(url, title, platforms, teaser, image) VALUES('" . $item["url"] . "', '" . $item["title"] . "', '" . $item["platforms"] . "', '" . $item["teaser"] . "', '" . $item["image"] . "', '" . $item["content"] . "')";
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
@@ -217,7 +217,7 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_update = "UPDATE releases SET url='" . $item["url"] . "', title='" . $item["title"] . "', platforms='" . $item["timestamp"] . "', teaser='" . $item["teaser"] . "', image='" . $item["image"] . "', content='" . $item["content"] . "' WHERE url='" . $item["url"] . "'";
+        $sql_update = "UPDATE releases SET url='" . $item["url"] . "', title='" . $item["title"] . "', platforms='" . $item["platforms"] . "', teaser='" . $item["teaser"] . "', image='" . $item["image"] . "', content='" . $item["content"] . "' WHERE url='" . $item["url"] . "'";
         mysqli_query($connect, $sql_update);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
