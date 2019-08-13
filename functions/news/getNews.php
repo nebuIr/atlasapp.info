@@ -61,6 +61,7 @@ class getNews
             }
         }
 
+        header('Content-Type: application/json');
         echo json_encode($output);
         mysqli_close($connect);
     }
@@ -87,6 +88,7 @@ class getNews
             }
         }
 
+        header('Content-Type: application/json');
         echo json_encode($output);
         mysqli_close($connect);
     }

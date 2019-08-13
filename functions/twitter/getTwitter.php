@@ -68,7 +68,8 @@ class getTwitter
                 $output[]=$row;
             }
         }
-
+        
+        header('Content-Type: application/json');
         echo json_encode($output);
         mysqli_close($connect);
     }
