@@ -199,7 +199,12 @@ class getReleases
             die("Connection failed: " . mysqli_connect_error());
         };
 
-        $sql_set = "INSERT INTO releases(url, title, platforms, teaser, image, content) VALUES('" . $item["url"] . "', '" . $item["title"] . "', '" . $item["platforms"] . "', '" . $item["teaser"] . "', '" . $item["image"] . "', '" . $item["content"] . "')";
+        $sql_set = "INSERT INTO releases (url, title, platforms, teaser, image, content) 
+					SELECT d.*
+					FROM (SELECT
+							'" . $item["url"] . "', '" . $item["title"] . "', '" . $item["platforms"] . "', '" . $item["teaser"] . "', '" . $item["image"] . "', '" . $item["content"] . "') AS d
+					WHERE 0 IN (SELECT COUNT(*)
+					FROM releases WHERE url='" . $item["url"] . "' AND title='" . $item["title"] . "')";
         mysqli_query($connect, $sql_set);
         var_dump(mysqli_error_list($connect));
         mysqli_close($connect);
