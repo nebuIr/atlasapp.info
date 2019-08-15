@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="010a1554-e3ad-40ff-b31f-396b723b1bd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/releases/getReleases.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/releases/getReleases.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +58,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-38" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1PO3oL3Om2k3S825LkgJ29FMZ2Q" />
   <component name="PropertiesComponent">
@@ -148,7 +142,7 @@
       <workItem from="1564769945675" duration="135000" />
       <workItem from="1565731337734" duration="60000" />
       <workItem from="1565731493665" duration="15000" />
-      <workItem from="1565731528248" duration="2704000" />
+      <workItem from="1565731528248" duration="3306000" />
     </task>
     <servers />
   </component>

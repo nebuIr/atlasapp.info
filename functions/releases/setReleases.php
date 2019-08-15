@@ -4,5 +4,5 @@ if (php_sapi_name() != 'cli') {
 }
 
 include_once("getReleases.php");
-$News = new getReleases();
-$News->mainSqlSet();
+$Releases = new getReleases();
+$Releases->mainSqlSet();

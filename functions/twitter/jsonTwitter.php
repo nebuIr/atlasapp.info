@@ -1,4 +1,4 @@
 <?php
 include_once("getTwitter.php");
-$News = new getTwitter();
-$News->generateTwitterJson($_GET['p']);
+$Twitter = new getTwitter();
+$Twitter->generateTwitterJson($_GET['p']);

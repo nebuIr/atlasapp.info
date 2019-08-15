@@ -4,5 +4,5 @@ if (php_sapi_name() != 'cli') {
 }
 
 include_once("getTwitter.php");
-$News = new getTwitter();
-$News->mainSqlUpdate();
+$Twitter = new getTwitter();
+$Twitter->mainSqlUpdate();

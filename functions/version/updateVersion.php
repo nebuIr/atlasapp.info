@@ -4,5 +4,5 @@ if (php_sapi_name() != 'cli') {
 }
 
 include_once("getVersion.php");
-$News = new getVersion();
-$News->mainSqlUpdate();
+$Version = new getVersion();
+$Version->mainSqlUpdate();
