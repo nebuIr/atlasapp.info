@@ -10,7 +10,7 @@ class getNews
 
     public function getJson(int $urlPage)
     {
-        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSky&q=";
+        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyNews&q=";
         $urlSuffix = "&format=Json";
         $json = file_get_contents($urlPrefix . $urlPage . $urlSuffix);
         $data = json_decode($json, true);
@@ -151,7 +151,7 @@ class getNews
 
     public function getJsonAll()
     {
-        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSky&q=";
+        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyNews&q=";
         $urlSuffix = "&format=Json";
         $urlPage = 1;
         $error_string = "error";
@@ -167,7 +167,7 @@ class getNews
 
     public function getJsonAllSet()
     {
-        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSky&q=";
+        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyNews&q=";
         $urlSuffix = "&format=Json";
         $urlPage = 1;
         $error_string = "error";
@@ -183,7 +183,7 @@ class getNews
 
     public function getJsonAllUpdate()
     {
-        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSky&q=";
+        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyNews&q=";
         $urlSuffix = "&format=Json";
         $urlPage = 1;
         $error_string = "error";
