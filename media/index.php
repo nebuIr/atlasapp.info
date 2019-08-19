@@ -37,35 +37,107 @@
     <div class="grid">
 
         <div class="card card-mobile-screen">
-            <img alt="screenshot" class="card-img-full" src="../assets/img/media/dash_1_dark_small.png"/>
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_1.png"/>
         </div>
 
         <div class="card card-mobile-screen">
-            <img alt="screenshot" class="card-img-full" src="../assets/img/media/dash_2_light_small.png"/>
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_1_.png"/>
         </div>
 
         <div class="card card-mobile-screen">
-            <img alt="screenshot" class="card-img-full" src="../assets/img/media/dash_3_dark_small.png"/>
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_2.png"/>
         </div>
 
         <div class="card card-mobile-screen">
-            <img alt="screenshot" class="card-img-full" src="../assets/img/media/resources_list_dark_small.png"/>
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_3.png"/>
         </div>
 
         <div class="card card-mobile-screen">
-            <img alt="screenshot" class="card-img-full" src="../assets/img/media/resources_details_dark_small.png"/>
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_3_.png"/>
         </div>
 
         <div class="card card-mobile-screen">
-            <img alt="screenshot" class="card-img-full" src="../assets/img/media/products_details_light_small.png"/>
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_4.png"/>
         </div>
 
         <div class="card card-mobile-screen">
-            <img alt="screenshot" class="card-img-full" src="../assets/img/media/achievements_dark_small.png"/>
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_4_.png"/>
         </div>
 
         <div class="card card-mobile-screen">
-            <img alt="screenshot" class="card-img-full" src="../assets/img/media/exocraft_list_light_small.png"/>
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_5.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_5_.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_6.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_7.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_8.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_8_.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_9.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_9_.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_10.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_10_.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_11.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_11_.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_12.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_13.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_14.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_15.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_16.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_17.png"/>
+        </div>
+
+        <div class="card card-mobile-screen">
+            <img alt="screenshot" class="card-img-full" src="../assets/img/media/screen_18.png"/>
         </div>
 
     </div>
