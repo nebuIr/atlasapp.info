@@ -22,7 +22,7 @@
                                                                    src="../assets/img/brand/logo_circle_192px.png"/></a>
         </li>
         <li><a href="../">Home</a></li>
-        <li><a href="../media">Media</a></li>
+        <li><a href="../media">Screenshots</a></li>
         <li><a href="../news">News</a></li>
         <li><a href="../releases">Releases</a></li>
         <li><a class="active" href="#">Twitter</a></li>
