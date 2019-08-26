@@ -19,14 +19,14 @@ class getVersion
     public function generateVersionFeed()
     {
         foreach ($this->getJson() as $item) {
-            $version_uri = $item["url"];
-            $version_title = $item["version"];
-            $version_content = $item["date"];
+            $version_url = $item["url"];
+            $version_version = $item["version"];
+            $version_date = $item["date"];
             echo "
-            <a  style='text-decoration: none; color: inherit' href='$version_uri'>
+            <a  style='text-decoration: none; color: inherit' href='$version_url'>
                 <div class='news'>
-                    <h2 style='margin-bottom: 5px' class='nms news-text-padding-side'>$version_title</h2>
-                    <div class='text-light news-text-padding-side news-text-padding-bottom'>$version_content</div><br>
+                    <h2 style='margin-bottom: 5px' class='nms news-text-padding-side'>$version_version</h2>
+                    <div class='text-light news-text-padding-side news-text-padding-bottom'>$version_date</div><br>
                 </div>
             </a>";
         }
@@ -77,11 +77,11 @@ class getVersion
         if (mysqli_num_rows($data) > 0) {
             while ($row = mysqli_fetch_assoc($data)) {
                 echo "
-                <a  style='text-decoration: none; color: inherit' href=" . $row["uri"] . ">
+                <a  style='text-decoration: none; color: inherit' href=" . $row["url"] . ">
                     <div class='version-div'>
                         <div class='version-note text-light quicksand-medium'>Latest version:</div>
-                        <h2 style='margin-bottom: 5px' class='version-title quicksand news-text-padding-side'>" . $row["title"] . "</h2>
-                        <div class='version text-light quicksand-medium news-text-padding-side'>" . $row["content"] . "</div><br>
+                        <h2 style='margin-bottom: 5px' class='version-title quicksand news-text-padding-side'>" . $row["version"] . "</h2>
+                        <div class='version text-light quicksand-medium news-text-padding-side'>" . $row["date"] . "</div><br>
                     </div>
                 </a>";
             }
