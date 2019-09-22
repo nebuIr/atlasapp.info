@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="010a1554-e3ad-40ff-b31f-396b723b1bd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/media/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/releases/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +131,7 @@
       <workItem from="1567189900358" duration="1239000" />
       <workItem from="1567221275191" duration="291000" />
       <workItem from="1567221608198" duration="11000" />
-      <workItem from="1569166932618" duration="881000" />
+      <workItem from="1569166932618" duration="1689000" />
     </task>
     <servers />
   </component>
@@ -186,9 +169,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="284" width="607" height="472" key="find.popup" timestamp="1569167811607">
+    <state x="656" y="284" width="607" height="472" key="find.popup" timestamp="1569168622157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="284" width="607" height="472" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1569167811607" />
+    <state x="656" y="284" width="607" height="472" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1569168622157" />
   </component>
 </project>
