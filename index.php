@@ -3,10 +3,6 @@
 
 <head>
     <title>Welcome</title>
-    <script src="assets/js/gtag.js"></script>
-    <script src="assets/js/base.js"></script>
-    <link href="assets/css/base.css" type="text/css" rel="stylesheet"/>
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
     <?php
     include("assets/html/head.html");
     ?>

@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'nms';
-    src: url('../fonts/nms.woff2') format('woff2'),
-    url('../fonts/nms.ttf') format('truetype');
+    src: url('/assets/fonts/nms.woff2') format('woff2'),
+    url('/assets/fonts/nms.ttf') format('truetype');
 }
 
 @keyframes fadein {
