@@ -13,9 +13,9 @@
 
 <nav>
     <ul>
-        <li style="margin-right: 10px"><a href="/"><img alt="atlas logo"
-                                                                   style="width: 50px; height: 50px; margin-top: -15px;"
-                                                                   src="/assets/img/brand/logo_circle_192px.png"/></a>
+        <li style="margin-right: 10px; margin-top: 1px"><a href="/"><img alt="atlas logo"
+                                                        style="width: 50px; height: 50px; margin-top: -15px; border-radius: 15px"
+                                                        src="/assets/img/brand/logo_square_512px.png"/></a>
         </li>
         <li><a href="/">Home</a></li>
         <li><a href="/media">Screenshots</a></li>

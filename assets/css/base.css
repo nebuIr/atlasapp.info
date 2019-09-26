@@ -29,24 +29,24 @@
 }
 
 .nms {
-    font-family: 'nms', 'Quicksand', sans-serif;
+    font-family: 'nms', 'Lato', sans-serif;
 }
 
-.quicksand-light {
-    font-family: 'Quicksand Light', sans-serif;
+.lato-light {
+    font-family: 'Lato Light', sans-serif;
 }
 
-.quicksand {
-    font-family: 'Quicksand', sans-serif;
+.lato {
+    font-family: 'Lato', sans-serif;
 }
 
-.quicksand-medium {
-    font-family: 'Quicksand Medium', sans-serif;
+.lato-medium {
+    font-family: 'Lato Medium', sans-serif;
 }
 
 body {
     background-color: #fff;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 nav {

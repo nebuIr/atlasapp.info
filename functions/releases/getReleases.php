@@ -28,9 +28,9 @@ class getReleases
             <a  style='text-decoration: none; color: inherit' href='$releases_uri'>
                 <div class='news'>
                     <img alt='release image'class='news-img' src='$releases_enclosures'><br>
-                    <h2 style='margin-bottom: 5px' class='quicksand news-text-padding-side'>$releases_title</h2>
-                    <div class='text-small text-light quicksand news-text-padding-side'>$releases_platforms</div><br>
-                    <div class='text-light quicksand news-text-padding-side news-text-padding-bottom'>$releases_content</div><br>
+                    <h2 style='margin-bottom: 5px' class='lato news-text-padding-side'>$releases_title</h2>
+                    <div class='text-small text-light lato news-text-padding-side'>$releases_platforms</div><br>
+                    <div class='text-light lato news-text-padding-side news-text-padding-bottom'>$releases_content</div><br>
                 </div>
             </a>";
         }
@@ -110,16 +110,16 @@ class getReleases
         if (mysqli_num_rows($data) > 0) {
             while ($row = mysqli_fetch_assoc($data)) {
                 $pattern = array("PC", "PS4", "Xbox One");
-                $replace = array("<div class='platform platform-pc quicksand-medium'>PC</div>", "<div class='platform platform-ps4 quicksand-medium'>PS4</div>", "<div class='platform platform-xbox quicksand-medium'>Xbox One</div>");
+                $replace = array("<div class='platform platform-pc lato-medium'>PC</div>", "<div class='platform platform-ps4 lato-medium'>PS4</div>", "<div class='platform platform-xbox lato-medium'>Xbox One</div>");
                 $platforms = str_replace($pattern, $replace, $row["platforms"]);
                 $row["platforms"] = $platforms;
                 echo "
                 <a  style='text-decoration: none; color: inherit' href=" . $row["url"] . ">
                     <div class='news'>
                         <img alt='release image'class='news-img' src=" . $row["image"] . "><br>
-                        <h2 style='margin-bottom: 5px' class='quicksand news-text-padding-side'>" . $row["title"] . "</h2>
+                        <h2 style='margin-bottom: 5px' class='lato news-text-padding-side'>" . $row["title"] . "</h2>
                         <div class='platforms-wrap'>" . $row["platforms"] . "</div><br>
-                        <div class='text-light quicksand news-text-padding-side news-text-padding-bottom'>" . $row["teaser"] . "</div><br>
+                        <div class='text-light lato news-text-padding-side news-text-padding-bottom'>" . $row["teaser"] . "</div><br>
                     </div>
                 </a>";
             }
