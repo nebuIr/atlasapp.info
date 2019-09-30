@@ -10,7 +10,7 @@ class getVersion
 
     public function getJson()
     {
-        $url = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyVersion&format=Json";
+        $url = "https://feed.nebulr.me/version/version.json";
         $json = file_get_contents($url);
         $data = json_decode($json, true);
         return $data;
@@ -104,7 +104,7 @@ class getVersion
 
     public function getJsonAllSet()
     {
-        $url = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyVersion&format=Json";
+        $url = "https://feed.nebulr.me/version/version.json";
         $json = file_get_contents($url);
         $data = json_decode($json, true);
         foreach ($data as $item) {
@@ -114,7 +114,7 @@ class getVersion
 
     public function getJsonAllUpdate()
     {
-        $url = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyVersion&format=Json";
+        $url = "https://feed.nebulr.me/version/version.json";
         $json = file_get_contents($url);
         $data = json_decode($json, true);
         foreach ($data as $item) {

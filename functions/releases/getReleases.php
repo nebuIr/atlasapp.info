@@ -10,7 +10,7 @@ class getReleases
 
     public function getJson()
     {
-        $url = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyReleaseLog&format=Json";
+        $url = "https://feed.nebulr.me/releases/posts.json";
         $json = file_get_contents($url);
         $data = json_decode($json, true);
         return $data;
@@ -153,7 +153,7 @@ class getReleases
 
     public function getJsonAll()
     {
-        $url = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyReleaseLog&format=Json";
+        $url = "https://feed.nebulr.me/releases/posts.json";
         $json = file_get_contents($url);
         $data = json_decode($json, true);
         foreach ($data as $item) {
@@ -163,7 +163,7 @@ class getReleases
 
     public function getJsonAllSet()
     {
-        $url = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyReleaseLog&format=Json";
+        $url = "https://feed.nebulr.me/releases/posts.json";
         $json = file_get_contents($url);
         $data = json_decode($json, true);
         foreach ($data as $item) {
@@ -173,7 +173,7 @@ class getReleases
 
     public function getJsonAllUpdate()
     {
-        $url = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyReleaseLog&format=Json";
+        $url = "https://feed.nebulr.me/releases/posts.json";
         $json = file_get_contents($url);
         $data = json_decode($json, true);
         foreach ($data as $item) {

@@ -8,18 +8,17 @@ class getNews
         $this->generateNewsSql($urlPage);
     }
 
-    public function getJson(int $urlPage)
+    public function getJson()
     {
-        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyNews&q=";
-        $urlSuffix = "&format=Json";
-        $json = file_get_contents($urlPrefix . $urlPage . $urlSuffix);
+        $url = "https://feed.nebulr.me/news/posts.json";
+        $json = file_get_contents($url);
         $data = json_decode($json, true);
         return $data;
     }
 
-    public function generateNewsFeed(int $urlPage)
+    public function generateNewsFeed()
     {
-        foreach ($this->getJson($urlPage) as $item) {
+        foreach ($this->getJson() as $item) {
             $news_uri = $item["url"];
             $news_title = $item["title"];
             $news_timestamp_orig = $item["timestamp"];
@@ -151,50 +150,32 @@ class getNews
 
     public function getJsonAll()
     {
-        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyNews&q=";
-        $urlSuffix = "&format=Json";
-        $urlPage = 1;
-        $error_string = "error";
-        do {
-            $json = file_get_contents($urlPrefix . $urlPage . $urlSuffix);
-            $data = json_decode($json, true);
-            foreach ($data as $item) {
-                $this->querySql($item);
-            }
-            $urlPage++;
-        } while (!(strpos($item["title"], $error_string)));
+        $url = "https://feed.nebulr.me/news/posts.json";
+        $json = file_get_contents($url);
+        $data = json_decode($json, true);
+        foreach ($data as $item) {
+            $this->querySql($item);
+        }
     }
 
     public function getJsonAllSet()
     {
-        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyNews&q=";
-        $urlSuffix = "&format=Json";
-        $urlPage = 1;
-        $error_string = "error";
-        do {
-            $json = file_get_contents($urlPrefix . $urlPage . $urlSuffix);
-            $data = json_decode($json, true);
-            foreach ($data as $item) {
-                $this->querySqlSet($item);
-            }
-            $urlPage++;
-        } while (!(strpos($item["title"], $error_string)));
+        $url = "https://feed.nebulr.me/news/posts.json";
+        $json = file_get_contents($url);
+        $data = json_decode($json, true);
+        foreach ($data as $item) {
+            $this->querySqlSet($item);
+        }
     }
 
     public function getJsonAllUpdate()
     {
-        $urlPrefix = "https://feed.nebulr.me/?action=display&bridge=NoMansSkyNews&q=";
-        $urlSuffix = "&format=Json";
-        $urlPage = 1;
-        $error_string = "error";
-        do {
-            $json = file_get_contents($urlPrefix . $urlPage . $urlSuffix);
-            $data = json_decode($json, true);
-            foreach ($data as $item) {
-                $this->querySqlUpdate($item);
-            }
-            $urlPage++;
-        } while (!(strpos($item["title"], $error_string)));
+        $url = "https://feed.nebulr.me/news/posts.json";
+        $json = file_get_contents($url);
+        $data = json_decode($json, true);
+        foreach ($data as $item) {
+            $this->querySqlUpdate($item);
+        }
     }
 
     public function querySql($item)
