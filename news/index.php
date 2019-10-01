@@ -32,7 +32,7 @@
 <main>
     <div class="grid">
         <?php
-        include_once($_SERVER['DOCUMENT_ROOT']."/functions/news/getNews.php");
+        include_once($_SERVER['DOCUMENT_ROOT']."/functions/feed/handler/news/getNews.php");
         $urlPage = 1;
         $News = new getNews();
         $News->mainHtml($urlPage);

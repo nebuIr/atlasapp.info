@@ -32,8 +32,8 @@
 <main>
     <div class="grid">
         <?php
-        include_once($_SERVER['DOCUMENT_ROOT']."/functions/releases/getReleases.php");
-        include_once($_SERVER['DOCUMENT_ROOT']."/functions/version/getVersion.php");
+        include_once($_SERVER['DOCUMENT_ROOT']."/functions/feed/handler/releases/getReleases.php");
+        include_once($_SERVER['DOCUMENT_ROOT']."/functions/feed/handler/version/getVersion.php");
         $urlPage = 1;
         $Version = new getVersion();
         $Version->mainHtml();

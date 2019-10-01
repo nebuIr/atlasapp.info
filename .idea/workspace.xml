@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="010a1554-e3ad-40ff-b31f-396b723b1bd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/news/getNews.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/news/getNews.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/releases/getReleases.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/releases/getReleases.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/version/getVersion.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/version/getVersion.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +39,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nebulr.me" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NMS-Fetcher" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="consents" />
@@ -135,7 +132,8 @@
       <workItem from="1567221608198" duration="11000" />
       <workItem from="1569166932618" duration="2846000" />
       <workItem from="1569515803080" duration="2664000" />
-      <workItem from="1569856562614" duration="3030000" />
+      <workItem from="1569856562614" duration="6025000" />
+      <workItem from="1569945534858" duration="643000" />
     </task>
     <servers />
   </component>
@@ -173,13 +171,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1569856642991">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1569945542319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1569856642991" />
-    <state x="656" y="284" width="737" height="542" key="find.popup" timestamp="1569517882704">
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1569945542319" />
+    <state x="656" y="284" width="737" height="542" key="find.popup" timestamp="1569946155883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="284" width="737" height="542" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1569517882704" />
+    <state x="656" y="284" width="737" height="542" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1569946155883" />
   </component>
 </project>
