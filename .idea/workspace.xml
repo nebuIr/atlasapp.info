@@ -39,7 +39,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NMS-Fetcher" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="consents" />
@@ -134,6 +134,7 @@
       <workItem from="1569515803080" duration="2664000" />
       <workItem from="1569856562614" duration="6025000" />
       <workItem from="1569945534858" duration="643000" />
+      <workItem from="1570037532473" duration="11000" />
     </task>
     <servers />
   </component>
@@ -171,10 +172,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1569945542319">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1570037542226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1569945542319" />
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1570037542226" />
     <state x="656" y="284" width="737" height="542" key="find.popup" timestamp="1569946155883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
