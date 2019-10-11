@@ -3,31 +3,12 @@
 
 <head>
     <title>Welcome</title>
-    <?php
-    include("assets/html/head.html");
-    ?>
+    <?php include("assets/html/head.php"); ?>
 </head>
 
 <body>
 
-<nav>
-    <ul>
-        <li style="margin-right: 10px; margin-top: 1px"><a href="/"><img alt="atlas logo"
-                                                                 style="width: 50px; height: 50px; margin-top: -15px; border-radius: 15px"
-                                                                 src="/assets/img/brand/logo_square_512px.png"/></a>
-        </li>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="/media">Screenshots</a></li>
-        <li><a href="/news">News</a></li>
-        <li><a href="/releases">Releases</a></li>
-        <li><a href="/twitter">Twitter</a></li>
-        <?php
-        $agent = strtolower($_SERVER['HTTP_USER_AGENT']);
-        if (stripos($agent, 'android') !== false) {
-            echo "<li><a target=\"_blank\" href=\"/home\">Open App</a></li>";
-        } ?>
-    </ul>
-</nav>
+<?php include($_SERVER['DOCUMENT_ROOT']."/assets/html/nav.php"); ?>
 
 <main class="main-text-medium">
     <div class="home-logo" style="background-image:url(assets/img/brand/logo_square_512px.png)"></div>

@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="010a1554-e3ad-40ff-b31f-396b723b1bd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/html/nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/media/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/releases/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +65,6 @@
       <recent name="C:\xampp\htdocs\atlas.nebulr.me\media" />
       <recent name="C:\xampp\htdocs\atlas.nebulr.me" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/atlas.nebulr.me/privacypolicy/index.html" useBuiltInWebServerPort="true">
@@ -135,6 +130,10 @@
       <workItem from="1569856562614" duration="6025000" />
       <workItem from="1569945534858" duration="643000" />
       <workItem from="1570037532473" duration="11000" />
+      <workItem from="1570309043298" duration="90000" />
+      <workItem from="1570378171051" duration="1225000" />
+      <workItem from="1570817260064" duration="1000" />
+      <workItem from="1570817275639" duration="1629000" />
     </task>
     <servers />
   </component>
@@ -176,9 +175,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1570037542226" />
-    <state x="656" y="284" width="737" height="542" key="find.popup" timestamp="1569946155883">
+    <state x="794" y="442" key="NewPhpFileDialog" timestamp="1570817473338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="284" width="737" height="542" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1569946155883" />
+    <state x="794" y="442" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1570817473338" />
+    <state x="656" y="284" width="737" height="542" key="find.popup" timestamp="1570309094759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="284" width="737" height="542" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1570309094759" />
   </component>
 </project>
