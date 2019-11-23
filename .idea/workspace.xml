@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="010a1554-e3ad-40ff-b31f-396b723b1bd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/html/nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/base.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/media/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/media/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/releases/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/releases/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twitter/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +48,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Atlas-Feed-Service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="consents" />
   </component>
   <component name="RecentsManager">
@@ -75,6 +78,18 @@
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -133,7 +148,13 @@
       <workItem from="1570309043298" duration="90000" />
       <workItem from="1570378171051" duration="1225000" />
       <workItem from="1570817260064" duration="1000" />
-      <workItem from="1570817275639" duration="1629000" />
+      <workItem from="1570817275639" duration="2459000" />
+      <workItem from="1572818204434" duration="1230000" />
+      <workItem from="1572820544549" duration="56000" />
+      <workItem from="1573834916901" duration="997000" />
+      <workItem from="1573949799907" duration="2613000" />
+      <workItem from="1574447873254" duration="2195000" />
+      <workItem from="1574512866126" duration="2763000" />
     </task>
     <servers />
   </component>
@@ -171,17 +192,19 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1570037542226">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1574513149196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1570037542226" />
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.1080.1920.1160@0.0.1920.1040" timestamp="1572820598411" />
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1574513149196" />
     <state x="794" y="442" key="NewPhpFileDialog" timestamp="1570817473338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="442" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1570817473338" />
-    <state x="656" y="284" width="737" height="542" key="find.popup" timestamp="1570309094759">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2576" y="251" width="737" height="789" key="find.popup" timestamp="1574449900775">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="284" width="737" height="542" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1570309094759" />
+    <state x="2576" y="251" width="737" height="789" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1574449900775" />
   </component>
 </project>

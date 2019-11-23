@@ -47,7 +47,7 @@
     </div>
 </main>
 <?php
-include("assets/html/footer.html");
+include("assets/html/footer.php");
 ?>
 </body>
 

@@ -13,15 +13,20 @@
 <main>
     <div class="grid">
         <?php
-        include_once($_SERVER['DOCUMENT_ROOT']."/functions/feed/handler/news/main.php");
-        $urlPage = 1;
-        $News = new getNews();
-        $News->mainHtml($urlPage);
-        ?>
-        <?php
-        if (array_key_exists('next_page', $_POST)) {
-            $urlPage++;
-            $News->nextPage($urlPage);
+        $url = 'https://api.nebulr.dev/atlas/v1/news';
+        $url_content = file_get_contents($url);
+        $news_array = json_decode($url_content, true);
+
+        foreach ($news_array as $news) {
+            echo "
+            <a style='text-decoration: none; color: inherit' href=" . $news['url'] . ">
+                <div class='news'>
+                    <img alt='news image' class='news-img' src=" . $news['images']['image_large'] . "><br>
+                    <h2 style='margin-bottom: 5px' class='lato news-text-padding-side'>" . $news['title'] . "</h2>
+                    <div class='text-small text-light lato news-text-padding-side'>" . $news['timestamp'] . "</div><br>
+                    <div class='text-light lato news-text-padding-side news-text-padding-bottom'>" . $news['excerpt'] . "</div><br>
+                </div>
+            </a>";
         }
         ?>
         <form method="post">
@@ -30,7 +35,7 @@
         </form>
 </main>
 <?php
-include ($_SERVER['DOCUMENT_ROOT']."/assets/html/footer.html");
+include($_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.php");
 ?>
 </body>
 </html>

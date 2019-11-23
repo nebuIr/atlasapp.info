@@ -18,7 +18,7 @@
     </div>
 </main>
 <?php
-include ($_SERVER['DOCUMENT_ROOT']."/assets/html/footer.html");
+include($_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.php");
 ?>
 </body>
 </html>
