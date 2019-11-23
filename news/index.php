@@ -18,6 +18,8 @@
         $news_array = json_decode($url_content, true);
 
         foreach ($news_array as $news) {
+            $news['timestamp'] = date('M d, Y H:m', $news['timestamp']);
+
             echo "
             <a style='text-decoration: none; color: inherit' href=" . $news['url'] . ">
                 <div class='news'>
