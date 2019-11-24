@@ -647,6 +647,10 @@ footer a:visited {
         width: 100%;
     }
 
+    .nav-logo {
+        display: none;
+    }
+
     .version-div {
         width: 95%;
     }
