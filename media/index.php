@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Screenshots</title>
+    <title>Atlas for No Man's Sky | Screenshots</title>
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/assets/html/head.php"); ?>
 </head>
 

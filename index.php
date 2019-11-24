@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Welcome</title>
+    <title>Atlas for No Man's Sky | Frontpage</title>
     <?php include("assets/html/head.php"); ?>
 </head>
 
