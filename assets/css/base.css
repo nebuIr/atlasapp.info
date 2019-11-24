@@ -90,6 +90,13 @@ nav li a:active {
     color: #d43b3b;
 }
 
+.nav-logo {
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+    border-radius: 15px;
+}
+
 .main-text {
     margin: auto 10px;
     transition: .4s;
@@ -470,10 +477,16 @@ footer a:visited {
     margin: 40px;
     display: inline-block;
     width: 400px;
+    max-height: 420px;
+    min-height: 420px;
     background: #f8f8f8;
     border-radius: 10px;
     text-align: left;
     transition: .4s;
+    cursor: pointer;
+}
+
+.news div {
     cursor: pointer;
 }
 
@@ -484,6 +497,16 @@ footer a:visited {
     /*box-shadow: 0 0 5px 3px #b7bcc5, 0 0 1px 10px #dadee6, #CCC 0 30px 50px 0;*/
 }
 
+.news-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    line-height: 1.4em;
+    height: 6em;
+}
+
 .news-text-padding-side {
     padding-left: 20px;
     padding-right: 20px;
@@ -491,6 +514,16 @@ footer a:visited {
 
 .news-text-padding-bottom {
     padding-bottom: 15px;
+}
+
+.releases-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-height: 1.4em;
+    height: 4.4em;
 }
 
 .text-small {
@@ -606,64 +639,74 @@ footer a:visited {
 }
 
 @media (max-width: 480px) {
+    nav {
+        width: 95%;
+    }
+
+    nav li {
+        width: 100%;
+    }
+
     .version-div {
-        width: 95% !important;
+        width: 95%;
     }
 
     .news {
-        display: flex !important;
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 95% !important;
-        margin-left: 12px !important;
+        width: 95%;
+        margin-left: 12px;
     }
 
     .twitter-timeline-div {
-        width: 90% !important;
-        margin-left: 10px !important;
+        width: 90%;
+        margin-left: 10px;
     }
 
     .twitter {
-        width: 80% !important;
-        margin-left: 12px !important;
+        width: 80%;
+        margin-left: 12px;
     }
 
     .news-img {
-        width: 100% !important;
+        width: 100%;
     }
 
     .news-text-padding-bottom {
-        padding-top: 15px !important;
+        padding-top: 15px;
     }
 
-    .dash-show {
-        display: none !important;
+    .only-desktop {
+        display: none;
     }
 
     .card-mobile {
-        display: block !important;
-        margin-left: -20px !important;
+        display: block;
+        margin-left: -20px;
+        width: 115%;
+        margin-bottom: 40px;
     }
 
     .card-mobile-screen {
-        display: block !important;
-        margin-left: -20px !important;
+        display: block;
+        margin-left: -3px;
     }
 
     .text-card {
-        margin-top: -40px !important;
-        margin-bottom: 60px !important;
+        margin-top: -40px;
+        margin-bottom: 60px;
     }
 
     .frontpage {
-        margin-top: 150px !important;
+        margin-top: 150px;
     }
 
     .news:hover {
-        box-shadow: 0 0 0 5px rgba(197, 1, 0, 0.31) !important;
+        box-shadow: 0 0 0 5px rgba(197, 1, 0, 0.31);
     }
 
     .twitter:hover {
-        box-shadow: 0 0 0 5px rgba(197, 1, 0, 0.31) !important;
+        box-shadow: 0 0 0 5px rgba(197, 1, 0, 0.31);
     }
 }

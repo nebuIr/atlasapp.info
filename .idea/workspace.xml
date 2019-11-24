@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="010a1554-e3ad-40ff-b31f-396b723b1bd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/php/Components.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/releases/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +45,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nebulr.me" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -146,6 +152,7 @@
       <workItem from="1573949799907" duration="2613000" />
       <workItem from="1574447873254" duration="2195000" />
       <workItem from="1574512866126" duration="7207000" />
+      <workItem from="1574613910069" duration="3832000" />
     </task>
     <servers />
   </component>
@@ -183,19 +190,27 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1574521840142">
+    <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1574614405195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040/0.1080.1920.1160@0.0.1920.1040" timestamp="1572820598411" />
-    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1574521840142" />
-    <state x="794" y="442" key="NewPhpFileDialog" timestamp="1570817473338">
+    <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1574614405195" />
+    <state x="745" y="333" key="NewPhpClassDialog" timestamp="1574614386830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="442" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1570817473338" />
-    <state x="2576" y="251" width="737" height="789" key="find.popup" timestamp="1574449900775">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="745" y="333" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1574614386830" />
+    <state x="794" y="442" key="NewPhpFileDialog" timestamp="1574614372253">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="284" width="737" height="542" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1570309094759" />
+    <state x="794" y="442" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1574614372253" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1574617740996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1574617740996" />
+    <state x="656" y="284" width="737" height="542" key="find.popup" timestamp="1574618055934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="284" width="737" height="542" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1574618055934" />
     <state x="2576" y="251" width="737" height="789" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1574449900775" />
   </component>
 </project>
