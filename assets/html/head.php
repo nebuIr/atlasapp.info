@@ -8,7 +8,7 @@ $url = 'https://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 <link href="/assets/css/base.css" type="text/css" rel="stylesheet"/>
 
 <!-- External -->
-<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/8119fd0658.js" crossorigin="anonymous"></script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <?php if (strpos($url,'/twitter') !== false) {echo "<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>";}?>
