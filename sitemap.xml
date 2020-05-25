@@ -6,32 +6,32 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>https://atlas.nebulr.me/</loc>
+        <loc>https://atlasapp.info/</loc>
         <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://atlas.nebulr.me/media/</loc>
+        <loc>https://atlasapp.info/media/</loc>
         <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://atlas.nebulr.me/news/</loc>
+        <loc>https://atlasapp.info/news/</loc>
         <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://atlas.nebulr.me/releases/</loc>
+        <loc>https://atlasapp.info/releases/</loc>
         <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://atlas.nebulr.me/twitter/</loc>
+        <loc>https://atlasapp.info/twitter/</loc>
         <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://atlas.nebulr.me/privacypolicy/</loc>
+        <loc>https://atlasapp.info/privacypolicy/</loc>
         <lastmod>2019-07-04T17:10:00+00:00</lastmod>
         <priority>0.50</priority>
     </url>

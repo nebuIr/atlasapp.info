@@ -1,4 +1,4 @@
-# atlas.nebulr.me
+# atlasapp.info
 The Atlas for No Man's Sky Website
 
-Website live at: https://atlas.nebulr.me/
+Website live at: https://atlasapp.info/
