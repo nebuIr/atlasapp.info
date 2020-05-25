@@ -3,7 +3,7 @@
 
 class Components
 {
-    public $base_url = 'https://api.nebulr.dev/atlas/v1/';
+    public $base_url = 'https://api.atlasapp.info/v1/';
 
     function renderNews() {
         $url = $this->base_url . 'news';
