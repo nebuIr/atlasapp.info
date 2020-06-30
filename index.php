@@ -3,12 +3,12 @@
 
 <head>
     <title>Atlas for No Man's Sky | Frontpage</title>
-    <?php include("assets/html/head.php"); ?>
+    <?php include("assets/html/head.php") ?>
 </head>
 
 <body>
 
-<?php include($_SERVER['DOCUMENT_ROOT']."/assets/html/nav.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/assets/html/nav.php") ?>
 
 <main class="main-text-medium">
     <div class="home-logo" style="background-image:url(assets/img/brand/logo_square_512px.png)"></div>
@@ -46,9 +46,7 @@
         </div>
     </div>
 </main>
-<?php
-include("assets/html/footer.php");
-?>
+<?php include("assets/html/footer.php") ?>
 </body>
 
 </html>

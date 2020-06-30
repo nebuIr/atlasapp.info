@@ -3,12 +3,12 @@
 
 <head>
     <title>Atlas for No Man's Sky | Twitter</title>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/assets/html/head.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/assets/html/head.php") ?>
 </head>
 
 <body>
 
-<?php include($_SERVER['DOCUMENT_ROOT']."/assets/html/nav.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/assets/html/nav.php") ?>
 
 <main>
     <div class="grid">
@@ -17,8 +17,6 @@
         </div>
     </div>
 </main>
-<?php
-include($_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.php");
-?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/assets/html/footer.php") ?>
 </body>
 </html>
