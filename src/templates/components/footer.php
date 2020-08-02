@@ -1,10 +1,10 @@
 <footer>
     <p class="card-text text-light">This website was created by <a href="https://nebulr.me"><img alt="nebulr"
-                                                                                                 src="/assets/img/brand/pp_16.png">
+                                                                                                 src="/assets/img/logos/pp_16.png">
         nebulr</a><br>Feel
         free to <a href="mailto:support@nebulr.me">send</a> any bug reports or feedback</p> <a
-        href="/privacypolicy/">Privacy Policy</a> <a style="margin-left: 30px"
-                                                               href="mailto:hello@nebulr.me">Contact</a><br>
+        href="/privacypolicy">Privacy Policy</a> <a style="margin-left: 30px"
+                                                           href="mailto:hello@nebulr.me">Contact</a><br>
     <a href='https://play.google.com/store/apps/details?id=me.nebulr.atlas&utm_source=wh&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
             style="transform: translate(-13px, 13px)" height="75px" alt='Get it on Google Play'
             src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>

@@ -1,19 +1,22 @@
 <?php
 
+namespace atlas;
 
 class Components
 {
     public $base_url = 'https://api.atlasapp.info/v1/';
 
-    function renderNews() {
+    public function renderNews(): string
+    {
         $url = $this->base_url . 'news';
         $url_content = file_get_contents($url);
         $news_array = json_decode($url_content, true);
+        $content = '';
 
         foreach ($news_array as $news) {
             $news['timestamp'] = date('M d, Y H:m', $news['timestamp']);
 
-            echo "
+            $content .= "
             <a style='text-decoration: none; color: inherit' href=" . $news['url'] . ">
                 <div class='news'>
                     <img alt='news image' class='news-img' src=" . $news['images']['image_large'] . "><br>
@@ -23,12 +26,16 @@ class Components
                 </div>
             </a>";
         }
+
+        return $content;
     }
 
-    function renderReleases() {
+    public function renderReleases(): string
+    {
         $url = $this->base_url . 'releases';
         $url_content = file_get_contents($url);
         $releases_array = json_decode($url_content, true);
+        $content = '';
 
         foreach ($releases_array as $releases) {
             $platforms = "";
@@ -46,7 +53,7 @@ class Components
             $platforms = str_replace($pattern, $replace, $platforms);
             $releases['platforms'] = $platforms;
 
-            echo "
+            $content .= "
             <a  style='text-decoration: none; color: inherit' href=" . $releases['url'] . ">
                 <div class='news'>
                     <img alt='release image' class='news-img' src=" . $releases['images']['image_large'] . "><br>
@@ -56,5 +63,7 @@ class Components
                 </div>
             </a>";
         }
+
+        return $content;
     }
 }
