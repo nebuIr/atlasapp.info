@@ -6,7 +6,7 @@ $dir = $basics->getDirectory();
 
 <nav>
     <ul>
-        <li class="only-desktop" style="margin-right: 10px; margin-top: 1px"><a href="/"><img alt="atlas logo" class="nav-logo" src="/assets/img/brand/logo_square_512px.png"/></a></li>
+        <li class="only-desktop" style="margin-right: 10px; margin-top: 1px"><a href="/"><img alt="atlas logo" class="nav-logo" src="/assets/img/logos/logo_square_512px.png"/></a></li>
         <li><a <?php if ($dir === '') {echo "class='active'";}?>href="/">Home</a></li>
         <li><a <?php if ($dir === 'media') {echo "class='active'";}?>href="/media">Screenshots</a></li>
         <li><a <?php if ($dir === 'news') {echo "class='active'";}?>href="/news">News</a></li>
