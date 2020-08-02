@@ -1,17 +1,20 @@
 <?php
-$url = 'https://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+use atlas\Basics;
+$basics = new Basics();
+$dir = $basics->getDirectory();
 ?>
 
 <!-- Basic -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title><?= $basics->getPageTitle($dir) ?></title>
 <link href="/assets/css/style.css" type="text/css" rel="stylesheet"/>
 
 <!-- External -->
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/8119fd0658.js" crossorigin="anonymous"></script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-<?php if (strpos($url,'/twitter') !== false) {echo "<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>";}?>
+<?php if ($dir = 'twitter') {echo '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>';}?>
 
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68526906-4"></script>

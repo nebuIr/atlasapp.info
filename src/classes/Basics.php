@@ -15,6 +15,40 @@ class Basics
         return '';
     }
 
+    public function getPageTitle($page): string
+    {
+        $title = 'Atlas for No Man\'s Sky | ';
+
+        switch ($page) {
+            default:
+            case '':
+                $title .= 'Frontpage';
+                break;
+
+            case 'media':
+                $title .= 'Screenshots';
+                break;
+
+            case 'news':
+                $title .= 'Game News';
+                break;
+
+            case 'releases':
+                $title .= 'Game Releases';
+                break;
+
+            case 'twitter':
+                $title .= 'Twitter';
+                break;
+
+            case 'privacypolicy':
+                $title .= 'Privacy Policy';
+                break;
+        }
+
+        return $title;
+    }
+
     public function errorCode(): array
     {
         $title = 'Unknown Error';
