@@ -49,6 +49,14 @@ class Basics
         return $title;
     }
 
+    public function setNav($dir, $menu): string {
+        if ($dir === $menu) {
+            return "class='active'";
+        }
+
+        return '';
+    }
+
     public function errorCode(): array
     {
         $title = 'Unknown Error';
