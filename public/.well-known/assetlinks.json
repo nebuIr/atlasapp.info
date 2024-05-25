@@ -1,0 +1,12 @@
+[
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "me.nebulr.atlas",
+            "sha256_cert_fingerprints": [
+                "28:DF:22:61:F8:09:D3:08:07:9A:EE:E0:AC:2B:D8:DE:2A:6E:B3:BE:A3:CA:95:B2:CF:BF:75:74:ED:CA:50:D0"
+            ]
+        }
+    }
+]
